@@ -7,11 +7,11 @@ maintained by [CNPG Extensions](https://github.com/cnpg-extensions/) for
 PostgreSQL extension images that can be used with
 [CloudNativePG](https://cloudnative-pg.io/).
 
-No catalogs are published yet. The directory and its Kustomize entry point are
-intentionally empty until the first catalogs are available.
+Catalogs are organized by image family and platform, with a signature file
+published alongside each generated manifest.
 
-When catalogs are added, individual manifests can be installed from this
-directory, or all catalogs can be installed with:
+Individual manifests can be installed from this directory, or all catalogs can
+be installed with:
 
 ```sh
 kubectl apply -k \
