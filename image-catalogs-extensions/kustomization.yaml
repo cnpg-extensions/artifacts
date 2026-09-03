@@ -3,3 +3,7 @@ kind: Kustomization
 
 # Catalog resources will be added here as they are published.
 resources: []
+
+patches:
+- path: catalog-minimal-bookworm.yaml
+- path: catalog-minimal-trixie.yaml
