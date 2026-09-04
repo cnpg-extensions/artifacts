@@ -25,7 +25,7 @@ spec:
       extensions:
         - name: age
           image:
-            reference: ghcr.io/cnpg-extensions/age:1.7.0-202609040512-18-bookworm@sha256:c9e22b4ca74e1479e9181f749d30db77009fa07726be4d2a294d27499327b182
+            reference: ghcr.io/cnpg-extensions/age:1.8.0-202609041312-18-bookworm@sha256:fbb8b6efef62e4e3e15cb37a588936d67a93479efdd38c2f2d0da637cb39505a
         - name: debversion
           image:
             reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202609040512-18-bookworm@sha256:b6c76a901af8cf220bc9bb853569fa42b1af735cd89840e6ee1c03e61302cc3e

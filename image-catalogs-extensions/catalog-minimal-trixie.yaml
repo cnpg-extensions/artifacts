@@ -25,7 +25,7 @@ spec:
       extensions:
         - name: age
           image:
-            reference: ghcr.io/cnpg-extensions/age:1.7.0-202609040512-18-trixie@sha256:8264dc97ae97fe558d7a5f8a8a39e7d79a07ae74147e16b01d4756622ceb09f9
+            reference: ghcr.io/cnpg-extensions/age:1.8.0-202609041312-18-trixie@sha256:ca6853b51e9ea7417d5eb94f6596eee40e9c4f17c261ce100c9f884d777a9f93
         - name: debversion
           image:
             reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202609040512-18-trixie@sha256:4d1b9b7db6f9f08f4fe65c346105dd950e40a1ef6912ae1fffe6c69df5090905
