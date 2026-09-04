@@ -31,7 +31,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202609040004-18-bookworm@sha256:8ae6400aaee0da4351fa3526500c34ad0125b4ec770a766541029478d832506f
         - name: h3
           image:
-            reference: ghcr.io/cnpg-extensions/h3:4.2.3-202609040004-18-bookworm@sha256:744992d3e70950367bba7a8f51dd273a43e5f7416fa55305868c56bbcadded66
+            reference: ghcr.io/cnpg-extensions/h3:4.2.3-202609040242-18-bookworm@sha256:2d257cb47558f5ca35ff6dbb88420291880b63948f3cdffaffa903274dfbf0ef
           ld_library_path:
             - system
         - name: mobilitydb
@@ -55,7 +55,7 @@ spec:
             reference: ghcr.io/cloudnative-pg/pg-ivm:1.13-202608271203-18-bookworm@sha256:d29789f34c7872f76a86cc9f87fd11b78af888c8f39816034e85e5c11e344a3d
         - name: pg-rrule
           image:
-            reference: ghcr.io/cnpg-extensions/pg-rrule:0.3.0-202609040004-18-bookworm@sha256:f8b3ddc30ce2c6e4bd1c518a1f100c813902f011f8717ff83467f02264a8e509
+            reference: ghcr.io/cnpg-extensions/pg-rrule:0.3.0-202609040242-18-bookworm@sha256:cc7c227497344fb5eeab3f99e7e796daaa321b6212247822f17ab792dea3708a
           ld_library_path:
             - system
         - name: pg-uuidv7
@@ -71,7 +71,7 @@ spec:
             reference: ghcr.io/cloudnative-pg/pgaudit:18.0-202608271202-18-bookworm@sha256:9bf1b0044f35dd8636e226177c9953b5f7acf0267be2131408af3785cad44832
         - name: pgmemcache
           image:
-            reference: ghcr.io/cnpg-extensions/pgmemcache:2.3.0-202609040004-18-bookworm@sha256:aff0dec69e00a88598d90d578ad28cc9ccd23890e33983375974024a0ae16ec2
+            reference: ghcr.io/cnpg-extensions/pgmemcache:2.3.0-202609040242-18-bookworm@sha256:476dc304b7a6fcf293255b51c5e505814545f7e224f1132ccac3927178a3065d
           ld_library_path:
             - system
         - name: pgmp
@@ -82,7 +82,7 @@ spec:
             reference: ghcr.io/cloudnative-pg/pgrouting:4.0.1-202608271203-18-bookworm@sha256:e7e699bdba0d991d59359a5f8129066730a243495c339c052a9364c0a6f2d877
         - name: pgsphere
           image:
-            reference: ghcr.io/cnpg-extensions/pgsphere:1.5.2-202609040003-18-bookworm@sha256:45e54ab85226018d02f322c682049879d6d6e326ea761125ed57fe6227a96bee
+            reference: ghcr.io/cnpg-extensions/pgsphere:1.5.2-202609040242-18-bookworm@sha256:0ea41d49390f38a00d4b041a620c455ad4698c700a1202e5a4a0312d85d666ef
           ld_library_path:
             - system
         - name: pgvector

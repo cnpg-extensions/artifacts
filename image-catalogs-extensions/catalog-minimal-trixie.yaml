@@ -31,7 +31,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202609040004-18-trixie@sha256:de7b2524a3353e1c26fd279587163cc463977238ca4c2d9a7b8eb6a95c25c1a9
         - name: h3
           image:
-            reference: ghcr.io/cnpg-extensions/h3:4.2.3-202609040004-18-trixie@sha256:c4457678cb4c47985a164255d86b87ae8a3fcf2c357aba5b0e51b9a81a1c9f24
+            reference: ghcr.io/cnpg-extensions/h3:4.2.3-202609040242-18-trixie@sha256:4a4a71ae724da26761c518351e7f22ee6d2bdef5f478678a9ba158f9369904b9
           ld_library_path:
             - system
         - name: mobilitydb
@@ -55,7 +55,7 @@ spec:
             reference: ghcr.io/cloudnative-pg/pg-ivm:1.13-202608271203-18-trixie@sha256:d94bd8186081e505c73eb20765873ef29ae086694263e79d14ebd69b959c965f
         - name: pg-rrule
           image:
-            reference: ghcr.io/cnpg-extensions/pg-rrule:0.3.0-202609040004-18-trixie@sha256:cf0bdb30a9f820bc07191bd51904c65e067d60b67d6c8b8dc2df5df6cbbffd9d
+            reference: ghcr.io/cnpg-extensions/pg-rrule:0.3.0-202609040242-18-trixie@sha256:ce7b399b1562eaa90f06f0881c77f2d4f615e8ad0d0b6b7e7442ad84f0dcfe85
           ld_library_path:
             - system
         - name: pg-uuidv7
@@ -82,7 +82,7 @@ spec:
             reference: ghcr.io/cloudnative-pg/pgrouting:4.0.1-202608271203-18-trixie@sha256:9f1980e327fc09f1c456a63bec476638db0c8297ab4886f65241930c5a56127c
         - name: pgsphere
           image:
-            reference: ghcr.io/cnpg-extensions/pgsphere:1.5.2-202609040003-18-trixie@sha256:a4b099a9611bdf93afc06559adf156e830ca76b41c24da96a29b01e27e2e42e5
+            reference: ghcr.io/cnpg-extensions/pgsphere:1.5.2-202609040242-18-trixie@sha256:5f342d0e6a3c9545d3b84c20c214b171acb7135871b7ea34443164ed7d248fa8
           ld_library_path:
             - system
         - name: pgvector
