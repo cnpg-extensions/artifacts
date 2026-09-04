@@ -36,7 +36,7 @@ spec:
             - system
         - name: mobilitydb
           image:
-            reference: ghcr.io/cnpg-extensions/mobilitydb:1.3.0-202609040003-18-bookworm@sha256:236d9282442ac3dcbed0356e76fcba5f6380b904382768178b4ab9e67adc0f34
+            reference: ghcr.io/cnpg-extensions/mobilitydb:1.3.0-202609040242-18-bookworm@sha256:e0d4e26d30251f1d1eb2e286b9f1aacf79cc61ab10adf5c96e9ca6d702f70026
           ld_library_path:
             - system
         - name: mysql-fdw
@@ -114,7 +114,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/q3c:2.0.5-202609040003-18-bookworm@sha256:954fb4215265d7114a152a41481b73e38cf8088f79c91925d03c7ffe033de7f7
         - name: snakeoil
           image:
-            reference: ghcr.io/cnpg-extensions/snakeoil:1.4-202609040004-18-bookworm@sha256:1e034575781e869e3eaf6e7c3e5593535b20f262c0abb81b941a3681683cd230
+            reference: ghcr.io/cnpg-extensions/snakeoil:1.4-202609040242-18-bookworm@sha256:57799eb4b6e7c4eebd92561c7374d721274601dff2bb23f5b15d6ba697e50c92
           ld_library_path:
             - system
         - name: tds-fdw

@@ -114,7 +114,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/q3c:2.0.5-202609040003-18-trixie@sha256:f1d611eda4dbb935abca41d23dc72b0ce053c0ace790594ec7f2a9f3378cb88d
         - name: snakeoil
           image:
-            reference: ghcr.io/cnpg-extensions/snakeoil:1.4-202609040004-18-trixie@sha256:e93d4e8a261a07e7087161bc510f21fe78b828012e7257576924bc58dbc74c2c
+            reference: ghcr.io/cnpg-extensions/snakeoil:1.4-202609040242-18-trixie@sha256:21b43bd39bd58cbe281c3f5b058e0147bc79a63aeb49a3ab073858a9c7907d43
           ld_library_path:
             - system
         - name: tds-fdw
