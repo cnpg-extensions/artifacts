@@ -41,7 +41,7 @@ spec:
             - system
         - name: mysql-fdw
           image:
-            reference: ghcr.io/cnpg-extensions/mysql-fdw:2.9.3-202609040022-18-trixie@sha256:19ad8b004774291c2fd98a6634b7ff81143622343d6e7918cacc6433407761d4
+            reference: ghcr.io/cnpg-extensions/mysql-fdw:2.9.3-202609040242-18-trixie@sha256:ad80092237ffe553565f4fc8c38cdf9d43de7811d70241cd3a56f61a94132e87
           ld_library_path:
             - system
         - name: pg-crash
