@@ -76,7 +76,7 @@ spec:
             - system
         - name: pgmp
           image:
-            reference: ghcr.io/cnpg-extensions/pgmp:1.0.6-202609040004-18-bookworm@sha256:02ee34802c37004c4b6ecea85f304b8e7e94367ec5ecede15c6aa79395c3b36f
+            reference: ghcr.io/cnpg-extensions/pgmp:1.0.6-202609040142-18-bookworm@sha256:0f03c3a6f8d3b3a69f22b4bb632a0405d56eae37b8c510e77e42fb318cb2682f
         - name: pgrouting
           image:
             reference: ghcr.io/cloudnative-pg/pgrouting:4.0.1-202608271203-18-bookworm@sha256:e7e699bdba0d991d59359a5f8129066730a243495c339c052a9364c0a6f2d877

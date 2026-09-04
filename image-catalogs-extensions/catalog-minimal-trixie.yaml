@@ -76,7 +76,7 @@ spec:
             - system
         - name: pgmp
           image:
-            reference: ghcr.io/cnpg-extensions/pgmp:1.0.6-202609040004-18-trixie@sha256:701dd32f8c1c8b1bdbe065a961985fc066bfae400bf5de89ee91726c049d320a
+            reference: ghcr.io/cnpg-extensions/pgmp:1.0.6-202609040142-18-trixie@sha256:e7d35bdb2f85371ad9430439a5723ba7d25cb5bce0964046a46ba02ee1dd59ee
         - name: pgrouting
           image:
             reference: ghcr.io/cloudnative-pg/pgrouting:4.0.1-202608271203-18-trixie@sha256:9f1980e327fc09f1c456a63bec476638db0c8297ab4886f65241930c5a56127c
