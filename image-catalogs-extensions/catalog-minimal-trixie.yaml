@@ -96,7 +96,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/plprofiler:4.2.5-202609040512-18-trixie@sha256:3cc76bcc8028fd6b94f03c7b693c8b3c3ce31e7e48990de967d50815ae27da4f
         - name: plr
           image:
-            reference: ghcr.io/cnpg-extensions/plr:1-8.4.8.6-202609041624-18-trixie@sha256:ed6b476e67c8e363da3e88263ad38bc6e2179ca81416ae07232e115d360b7215
+            reference: ghcr.io/cnpg-extensions/plr:1-8.4.8.7-202609041639-18-trixie@sha256:3d570cec7f820e9d5948cd51a6a41e58af25eccadd00c24270ad116117df26c4
           ld_library_path:
             - system
         - name: postgis
