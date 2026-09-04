@@ -71,7 +71,7 @@ spec:
             reference: ghcr.io/cloudnative-pg/pgaudit:18.0-202608271202-18-trixie@sha256:4bac0a8afa2415405eb2ec427f8ef03f06b29af6e5698bb58b59bd16b8710454
         - name: pgmemcache
           image:
-            reference: ghcr.io/cnpg-extensions/pgmemcache:2.3.0-202609040004-18-trixie@sha256:121326a8f0f209e085c5aae65c6e26ddb1d7bd69a271640749128b7cf91d408e
+            reference: ghcr.io/cnpg-extensions/pgmemcache:2.3.0-202609040242-18-trixie@sha256:7d026119775cb129a7b923e4622a61bfc5c69c2f06340731a4c1f5e777749a4b
           ld_library_path:
             - system
         - name: pgmp
@@ -96,7 +96,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/plprofiler:4.2.5-202609040003-18-trixie@sha256:690f2786692a2747cb216a1ffc7fc9477d72caf1ddb133d17ea15d032bd468ec
         - name: plr
           image:
-            reference: ghcr.io/cnpg-extensions/plr:1-8.4.8.6-202609040234-18-trixie@sha256:d25e8a888e0448157bcd2987a930fbd0a996f4f6230d81c3671f91b647098fdc
+            reference: ghcr.io/cnpg-extensions/plr:1-8.4.8.6-202609040242-18-trixie@sha256:ea6959a3104c5d10f86646f74f675e757f017d58b283992bbd4503abcaca82a1
           ld_library_path:
             - system
         - name: postgis

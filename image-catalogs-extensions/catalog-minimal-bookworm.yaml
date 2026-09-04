@@ -41,7 +41,7 @@ spec:
             - system
         - name: mysql-fdw
           image:
-            reference: ghcr.io/cnpg-extensions/mysql-fdw:2.9.3-202609040022-18-bookworm@sha256:496f85454cbc550115389a8032d5ae407db9e4b75a8f6da9c3c8681e37ff42db
+            reference: ghcr.io/cnpg-extensions/mysql-fdw:2.9.3-202609040242-18-bookworm@sha256:6dbedb2f40631e54e76417a2d3e36339d766fd50cd7189f1e5897e56f38cdd85
           ld_library_path:
             - system
         - name: pg-crash
@@ -96,7 +96,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/plprofiler:4.2.5-202609040003-18-bookworm@sha256:73f2525952f7bc7e84131b0b0dd5339b855b1fe35dbdc8aa02afc9788ad45c68
         - name: plr
           image:
-            reference: ghcr.io/cnpg-extensions/plr:1-8.4.8.6-202609040234-18-bookworm@sha256:0638d56eca12d856577c4d3863039b80ccf9eb48258d378037a2e218ee0bda10
+            reference: ghcr.io/cnpg-extensions/plr:1-8.4.8.6-202609040242-18-bookworm@sha256:cb52cff59db86869172de5b5363be73162f657e07d65234254e1801b40ed1f86
           ld_library_path:
             - system
         - name: postgis
