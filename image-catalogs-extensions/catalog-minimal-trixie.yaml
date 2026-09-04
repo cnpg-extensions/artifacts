@@ -25,7 +25,7 @@ spec:
       extensions:
         - name: age
           image:
-            reference: ghcr.io/cnpg-extensions/age:1.7.0-202609040003-18-trixie@sha256:ca0c9db0556e1fcd529489e01988793fb08869fe424e87b33a9a195190d9941d
+            reference: ghcr.io/cnpg-extensions/age:1.7.0-202609040235-18-trixie@sha256:34e4547d948cba2b01bc5d75de9a8f26f057b3abaad6e5bb69debb5db1e1c38d
         - name: debversion
           image:
             reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202609040004-18-trixie@sha256:de7b2524a3353e1c26fd279587163cc463977238ca4c2d9a7b8eb6a95c25c1a9
@@ -90,13 +90,13 @@ spec:
             reference: ghcr.io/cloudnative-pg/pgvector:0.8.6-202608271202-18-trixie@sha256:eb037e7c3244059fe0d6732ba8f6d94cd1e864ee306f5f55f37bcc11713aaa4a
         - name: pldebugger
           image:
-            reference: ghcr.io/cnpg-extensions/pldebugger:1-1.10-202609040003-18-trixie@sha256:04ac50bf8aadbcb215a9823234af208837a1fc05fb0472b7a39c5485cb2292c4
+            reference: ghcr.io/cnpg-extensions/pldebugger:1-1.10-202609040235-18-trixie@sha256:eb0ae5916c46023ba16d87bfabfffb34b4a6d5f310c76ca9e162c0855eaa4d96
         - name: plprofiler
           image:
             reference: ghcr.io/cnpg-extensions/plprofiler:4.2.5-202609040003-18-trixie@sha256:690f2786692a2747cb216a1ffc7fc9477d72caf1ddb133d17ea15d032bd468ec
         - name: plr
           image:
-            reference: ghcr.io/cnpg-extensions/plr:1-8.4.8.6-202609040004-18-trixie@sha256:478fb2ce3e009d22c2b2b822fbe65455ab32d84ded54b2aa367afa0b8d9cabcb
+            reference: ghcr.io/cnpg-extensions/plr:1-8.4.8.6-202609040234-18-trixie@sha256:d25e8a888e0448157bcd2987a930fbd0a996f4f6230d81c3671f91b647098fdc
           ld_library_path:
             - system
         - name: postgis
@@ -119,7 +119,7 @@ spec:
             - system
         - name: tds-fdw
           image:
-            reference: ghcr.io/cnpg-extensions/tds-fdw:2.0.5-202609040003-18-trixie@sha256:c6a7aac0a33acc01f91907c2d8bafcb19d08dbc9658cf0599edd3c6e38db4f67
+            reference: ghcr.io/cnpg-extensions/tds-fdw:2.0.5-202609040236-18-trixie@sha256:a33f8191b2e48385c74673dfbb3737cedd11e99536b0a2db119eb364907fe8c3
           ld_library_path:
             - system
         - name: timescaledb-oss

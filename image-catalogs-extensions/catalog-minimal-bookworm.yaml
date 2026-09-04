@@ -25,7 +25,7 @@ spec:
       extensions:
         - name: age
           image:
-            reference: ghcr.io/cnpg-extensions/age:1.7.0-202609040003-18-bookworm@sha256:e3fa1f2c98cf4dc5231df8f8dc19c7b267b6b031d68b4019a601bc62ce17f5c4
+            reference: ghcr.io/cnpg-extensions/age:1.7.0-202609040235-18-bookworm@sha256:d92bee6034ce139f49df7306281c9c38134e868d360c813489a8f35f2e1bfba3
         - name: debversion
           image:
             reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202609040004-18-bookworm@sha256:8ae6400aaee0da4351fa3526500c34ad0125b4ec770a766541029478d832506f
@@ -90,13 +90,13 @@ spec:
             reference: ghcr.io/cloudnative-pg/pgvector:0.8.6-202608271202-18-bookworm@sha256:48c8101500af2a0dd213cb2b0567175aae2606f86223a7aefbdd8e6a6d3a0a16
         - name: pldebugger
           image:
-            reference: ghcr.io/cnpg-extensions/pldebugger:1-1.10-202609040003-18-bookworm@sha256:17a5dd25baef404f94978ee816ee47d2b367155aada014334db16e07a37ac69b
+            reference: ghcr.io/cnpg-extensions/pldebugger:1-1.10-202609040235-18-bookworm@sha256:b6620ff62ff0df021c98fbb7ebeaad8d59b1dc531befec8ccabf2ca853c2ec14
         - name: plprofiler
           image:
             reference: ghcr.io/cnpg-extensions/plprofiler:4.2.5-202609040003-18-bookworm@sha256:73f2525952f7bc7e84131b0b0dd5339b855b1fe35dbdc8aa02afc9788ad45c68
         - name: plr
           image:
-            reference: ghcr.io/cnpg-extensions/plr:1-8.4.8.6-202609040004-18-bookworm@sha256:a0b3901ac03f737bf9f29433818768e33ceb9470506f32a3550f341ec7affbf9
+            reference: ghcr.io/cnpg-extensions/plr:1-8.4.8.6-202609040234-18-bookworm@sha256:0638d56eca12d856577c4d3863039b80ccf9eb48258d378037a2e218ee0bda10
           ld_library_path:
             - system
         - name: postgis
@@ -119,7 +119,7 @@ spec:
             - system
         - name: tds-fdw
           image:
-            reference: ghcr.io/cnpg-extensions/tds-fdw:2.0.5-202609040003-18-bookworm@sha256:de3eebb8a3600005b30ef5c2de6bf8cd6ea8065f5763a02c63cc8bdb5b5ffae6
+            reference: ghcr.io/cnpg-extensions/tds-fdw:2.0.5-202609040236-18-bookworm@sha256:7749b793397d99cc6fd279068f4a22533884274f2f3bda70332d7c5771d7135d
           ld_library_path:
             - system
         - name: timescaledb-oss
