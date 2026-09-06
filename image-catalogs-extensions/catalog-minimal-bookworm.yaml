@@ -82,7 +82,7 @@ spec:
             reference: ghcr.io/cloudnative-pg/pgrouting:4.0.1-202609041511-18-bookworm@sha256:c30996a65eedddf98bcd35db02f24504347c57fffe12baa85ced587c2920761e
         - name: pgsphere
           image:
-            reference: ghcr.io/cnpg-extensions/pgsphere:1.5.2-202609050716-18-bookworm@sha256:b4814b35c8d8b2a86c4cf90317751c6e42224df271954480e756f96d1ebb6e41
+            reference: ghcr.io/cnpg-extensions/pgsphere:1.5.2-202609060746-18-bookworm@sha256:16dcb62f158cfd38adc9840cd85fab9336b3c4e6791857d3ab0c8a40e92b59d2
           ld_library_path:
             - system
         - name: pgvector
@@ -114,7 +114,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/q3c:2.0.5-202609051450-18-bookworm@sha256:300253dd4750ab021b74bdfc622182ec3a2726914b6ab7ba5c13a42773b60518
         - name: snakeoil
           image:
-            reference: ghcr.io/cnpg-extensions/snakeoil:1.4-202609050716-18-bookworm@sha256:bb8d5df1c84d45a83b8c2abe2b95378ef2a9bf2d0d632500c350440e67dd580b
+            reference: ghcr.io/cnpg-extensions/snakeoil:1.4-202609060746-18-bookworm@sha256:50774e243fe2f81291fc319daa27949dbbb7fec096d4b3749dd0a98b13742638
           ld_library_path:
             - system
         - name: tds-fdw

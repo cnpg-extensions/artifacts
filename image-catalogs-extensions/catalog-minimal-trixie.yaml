@@ -82,7 +82,7 @@ spec:
             reference: ghcr.io/cloudnative-pg/pgrouting:4.0.1-202609041511-18-trixie@sha256:be409d43660ffc5dec8510c9e03de100735191d6f5d26f8df07492c9502d7ce2
         - name: pgsphere
           image:
-            reference: ghcr.io/cnpg-extensions/pgsphere:1.5.2-202609050716-18-trixie@sha256:f0076ce0d78904fc1f169ef263d53e7818da59b6a0dbae083a1801f3e7d14af9
+            reference: ghcr.io/cnpg-extensions/pgsphere:1.5.2-202609060746-18-trixie@sha256:85356b71c4ca062cab0ca1d62848a2cbd4eff928eb8c30079de1d30567a6d19c
           ld_library_path:
             - system
         - name: pgvector
@@ -114,7 +114,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/q3c:2.0.5-202609051450-18-trixie@sha256:554b614310cbc92b632000011472f3373b0fb0b25e548b1c92f3ad84f3d97ddd
         - name: snakeoil
           image:
-            reference: ghcr.io/cnpg-extensions/snakeoil:1.4-202609050716-18-trixie@sha256:a0cf879987b45c9d9a98a065ad234e72a060e6acfdd0fdad5a411e82cfc9ef61
+            reference: ghcr.io/cnpg-extensions/snakeoil:1.4-202609060746-18-trixie@sha256:d5dfbb1e4f69863dab552c6706096ae32c23b2621864133ac97764408214834c
           ld_library_path:
             - system
         - name: tds-fdw
