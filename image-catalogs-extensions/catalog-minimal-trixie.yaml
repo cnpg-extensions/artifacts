@@ -36,7 +36,7 @@ spec:
             - system
         - name: mobilitydb
           image:
-            reference: ghcr.io/cnpg-extensions/mobilitydb:1.3.0-202609060747-18-trixie@sha256:61685cec9a0a2a55ce5cfb15192676fc6463e8a264c83f18f7e8db117e53ca33
+            reference: ghcr.io/cnpg-extensions/mobilitydb:1.3.0-202609070805-18-trixie@sha256:b223c6efff89a6238839697f5e35f4dd589d82795f3b1e0f96c5e3b8bc3d1292
           ld_library_path:
             - system
         - name: mysql-fdw
