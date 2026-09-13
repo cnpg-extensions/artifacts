@@ -41,7 +41,7 @@ spec:
             - system
         - name: mysql-fdw
           image:
-            reference: ghcr.io/cnpg-extensions/mysql-fdw:2.9.3-202609130708-18-trixie@sha256:a2e03dc969b3e63bc1e513f22c0b715841da00d8d34be4f42fcd1172bfaa58eb
+            reference: ghcr.io/cnpg-extensions/mysql-fdw:2.9.3-202609130810-18-trixie@sha256:50100a06deceb140f6ed97ed60f4704388427b609b8e5fd4bb5faa2d6a3d43dc
           ld_library_path:
             - system
         - name: pg-crash
@@ -96,7 +96,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/plprofiler:4.2.5-202609130708-18-trixie@sha256:1e2ccdd2ed22da2729a2618267b92fa2c7d9acf9fc6bbdf6a4d60e1ba7f60994
         - name: plr
           image:
-            reference: ghcr.io/cnpg-extensions/plr:1-8.4.8.7-202609130708-18-trixie@sha256:e62dea939f120fef61fba900fce039699d23b55bba73010400e4269848a8b58e
+            reference: ghcr.io/cnpg-extensions/plr:1-8.4.8.7-202609130810-18-trixie@sha256:a720697417309d0fc8861e6d59c9d5f4a173bc7f79bcb53d151aa6a9f633f80f
           ld_library_path:
             - system
         - name: postgis

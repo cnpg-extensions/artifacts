@@ -96,7 +96,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/plprofiler:4.2.5-202609130708-18-bookworm@sha256:740425fe4915d1003e475d930905da749b9e5e7f50aef3feb35967aca3e32906
         - name: plr
           image:
-            reference: ghcr.io/cnpg-extensions/plr:1-8.4.8.7-202609130708-18-bookworm@sha256:e503458abea09722820536e6421def9eb8ff6efb766a4839e10de258f67317dc
+            reference: ghcr.io/cnpg-extensions/plr:1-8.4.8.7-202609130810-18-bookworm@sha256:071feb26c478809382ad75979a016692cfa824e9701cbb4af5ccadf4555c1502
           ld_library_path:
             - system
         - name: postgis
