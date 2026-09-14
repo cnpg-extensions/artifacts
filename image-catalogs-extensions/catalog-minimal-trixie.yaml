@@ -100,7 +100,7 @@ spec:
             reference: ghcr.io/cloudnative-pg/pgrouting:4.0.1-202609081055-18-trixie@sha256:848edb67e140ac9d9b1b417625983bb6acfaf0cf32f0e383b653976ccf606cce
         - name: pgsentinel
           image:
-            reference: ghcr.io/cnpg-extensions/pgsentinel:1.5.0-202609140903-18-trixie@sha256:044aad1e4cc9ab64711de8ad8c54dd519080aa5a444037fb5370fba2e5c957e6
+            reference: ghcr.io/cnpg-extensions/pgsentinel:1.5.0-202609141728-18-trixie@sha256:9bb176f95421674627cad8b1a72d8c4a0b5663170d9eb5fb5d284f8b9ebe305a
         - name: pgsphere
           image:
             reference: ghcr.io/cnpg-extensions/pgsphere:1.5.2-202609140832-18-trixie@sha256:3f2d32fc1d31acc1ad93c88287700d1996efd59c354fcdb95dc08e3692b395f0

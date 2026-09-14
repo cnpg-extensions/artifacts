@@ -100,7 +100,7 @@ spec:
             reference: ghcr.io/cloudnative-pg/pgrouting:4.0.1-202609081055-18-bookworm@sha256:473dd8b3c5d431be43ada392336aed8cf5f7b4b3c65c16891ac30ff305a57859
         - name: pgsentinel
           image:
-            reference: ghcr.io/cnpg-extensions/pgsentinel:1.5.0-202609140903-18-bookworm@sha256:288b3d4a6998a31ebde43241e016f62d2361de554a49d94b805c4a1a3f4aa717
+            reference: ghcr.io/cnpg-extensions/pgsentinel:1.5.0-202609141728-18-bookworm@sha256:3c1e7c38e1bd3323814e56546f3048a5208e99142f176bbd53519ccb2e3e52c1
         - name: pgsphere
           image:
             reference: ghcr.io/cnpg-extensions/pgsphere:1.5.2-202609140832-18-bookworm@sha256:173c6b393e0a64f439c7f93db40e6fdb2a06f5972e0dfdcc86048b84f7f80aac
