@@ -76,6 +76,9 @@ spec:
         - name: pg-stat-kcache
           image:
             reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202609151815-18-trixie@sha256:129147be1d708f60624c5f504cbc79d9eaa483d79d0792112a5746823ae4bb1d
+        - name: pg-stat-plans
+          image:
+            reference: ghcr.io/cnpg-extensions/pg-stat-plans:2.1.0-202609160411-18-trixie@sha256:03019741ae3b20c4bfef718975f6582f5b084b078c72bd3356b36461acb6e186
         - name: pg-uuidv7
           image:
             reference: ghcr.io/cnpg-extensions/pg-uuidv7:1.7.0-202609151816-18-trixie@sha256:1f98cef5e2bb1c27d4a2e97267d2aebf9a7e4b79f32ed82b2ff8a8dd0356d4d6
@@ -136,6 +139,9 @@ spec:
         - name: q3c
           image:
             reference: ghcr.io/cnpg-extensions/q3c:2.0.5-202609151814-18-trixie@sha256:23c3123827963a2ebe49df36abcab1511385c450ab6018301f9c16411e350dd7
+        - name: show-plans
+          image:
+            reference: ghcr.io/cnpg-extensions/show-plans:2.1.8-202609160411-18-trixie@sha256:5bd208aeecdbf216c4863231ce00ceae43a794c8a79352f865e69e56a0817108
         - name: snakeoil
           image:
             reference: ghcr.io/cnpg-extensions/snakeoil:1.4-202609151815-18-trixie@sha256:a63b1d761ba8fcf78b5208721874b2585d68b4a00a9db314c1b13dc784ce6853

@@ -76,6 +76,9 @@ spec:
         - name: pg-stat-kcache
           image:
             reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202609151815-18-bookworm@sha256:44e4e10785a01be3c22a1cf2ab6b7eb56c133147d5074ee92ee78a6dd0130291
+        - name: pg-stat-plans
+          image:
+            reference: ghcr.io/cnpg-extensions/pg-stat-plans:2.1.0-202609160411-18-bookworm@sha256:ea850e601a4250379c8c1bc85a68f7690b2d643eb345f94a374bf79a7287eca9
         - name: pg-uuidv7
           image:
             reference: ghcr.io/cnpg-extensions/pg-uuidv7:1.7.0-202609151816-18-bookworm@sha256:6a27fbdc9f7c247ca24886c47f5bf6f0460ad08828ec85ab23d70ff6f0f5ad8f
@@ -136,6 +139,9 @@ spec:
         - name: q3c
           image:
             reference: ghcr.io/cnpg-extensions/q3c:2.0.5-202609151814-18-bookworm@sha256:84f0c8fc3aaaefbfed6221fa9e996054e635026b46d846805a2731d8ab23ac86
+        - name: show-plans
+          image:
+            reference: ghcr.io/cnpg-extensions/show-plans:2.1.8-202609160411-18-bookworm@sha256:5750b2c93f5dbe4f4e15c1734c5778bb33b60efd5329272632f7fbe265f20cdf
         - name: snakeoil
           image:
             reference: ghcr.io/cnpg-extensions/snakeoil:1.4-202609151815-18-bookworm@sha256:ec5df91041c2616c8b7426b85e2b385f8c185877274da29404cc7d62148829bd
