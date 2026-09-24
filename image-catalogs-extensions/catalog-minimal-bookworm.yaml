@@ -36,7 +36,7 @@ spec:
             - system
         - name: hypopg
           image:
-            reference: ghcr.io/cnpg-extensions/hypopg:1.4.3-202609212159-18-bookworm@sha256:5b71be9a4d08a2035a8cfd8465cc0dfce873a3ef56fbecffdb58bb4f58b52b03
+            reference: ghcr.io/cnpg-extensions/hypopg:1.4.3-202609242351-18-bookworm@sha256:1bee41ebe40e5d02363e59b166ce320b6774ac6a03e4ac3fb720c1176664fa5f
         - name: mobilitydb
           image:
             reference: ghcr.io/cnpg-extensions/mobilitydb:1.3.0-202609212159-18-bookworm@sha256:2cfd564ead8f3691263bc6e938b92c386a1e132b6918617a40ccae37b1dfb1de
