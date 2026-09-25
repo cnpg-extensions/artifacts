@@ -64,7 +64,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-partman:5.5.0-202609212200-18-trixie@sha256:b98ac067bb3ac3a669005bfcd3ae9032f43c0edd488a928f97ad77e7d7c1ffae
         - name: pg-qualstats
           image:
-            reference: ghcr.io/cnpg-extensions/pg-qualstats:2.1.4-202609212201-18-trixie@sha256:848870e04913a59a1ddafb743853335b14d8b6cc929fa77b481d0dc3be5a60a6
+            reference: ghcr.io/cnpg-extensions/pg-qualstats:2.1.4-202609251025-18-trixie@sha256:63770131d2573d878600b46e26797848cbfaca75efde50c3c7da7eb8b1d3f924
         - name: pg-rrule
           image:
             reference: ghcr.io/cnpg-extensions/pg-rrule:0.3.0-202609212201-18-trixie@sha256:aac6cbb49fb027314bc034db1c298bd1b270295d0d55e98e137e658e8d62c60c
@@ -75,7 +75,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.4-202609212200-18-trixie@sha256:1c2c368e41258a73ce93c99fecfee6b906fa8af3df5d3d24c4ad60510c80eab0
         - name: pg-stat-kcache
           image:
-            reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202609212201-18-trixie@sha256:aa31bea5bf62cbd72d56ce105b76b0221ff8793e27d55ec948da04193da0fdba
+            reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202609251025-18-trixie@sha256:31ebdbfbe861942f6b3f394447b10dafc95824e19b417ba2f78c46d39e38edc7
         - name: pg-stat-plans
           image:
             reference: ghcr.io/cnpg-extensions/pg-stat-plans:2.1.0-202609212200-18-trixie@sha256:290e3934dc76d06350f35918ca5a114bef019f4299f0e78296ddf36317b9fddc

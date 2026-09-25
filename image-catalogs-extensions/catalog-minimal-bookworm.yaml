@@ -64,7 +64,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-partman:5.5.0-202609212200-18-bookworm@sha256:549c5286e4fcc16bf12148e509c57ead252bb1c770326bb687401f3791eea63a
         - name: pg-qualstats
           image:
-            reference: ghcr.io/cnpg-extensions/pg-qualstats:2.1.4-202609212201-18-bookworm@sha256:25e44da2e5dbb4778c38f81de6d9173533c4c7c074d43d9db9258361f7461ce8
+            reference: ghcr.io/cnpg-extensions/pg-qualstats:2.1.4-202609251025-18-bookworm@sha256:ea02e14956327a2671581f3d2af4eb2e562fcb2164d9684f8ac41b1e6ff00bca
         - name: pg-rrule
           image:
             reference: ghcr.io/cnpg-extensions/pg-rrule:0.3.0-202609212201-18-bookworm@sha256:8d71d064bbeca15d6c490ab20c42bf7b6ce5f6505d6700c160474a3d065563d7
@@ -75,7 +75,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.4-202609212200-18-bookworm@sha256:213e340f5f33fb10ff6f0de567b3687ca05c6e5bc72a17b453d333fbc5eb2985
         - name: pg-stat-kcache
           image:
-            reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202609212201-18-bookworm@sha256:7c5cda1fa9803b6844aaca47732cfceede2503d14dab2f38ec732e7342363537
+            reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202609251025-18-bookworm@sha256:13a4bdb4288d79b38fa742f40023f0c8f8333a2fc664ba3cb2b56edddd9eab4f
         - name: pg-stat-plans
           image:
             reference: ghcr.io/cnpg-extensions/pg-stat-plans:2.1.0-202609212200-18-bookworm@sha256:b057506faea3c152088a14ad0f45d96180afe3c37f5206f743676ddffc0193cc
