@@ -72,7 +72,7 @@ spec:
             - system
         - name: pg-squeeze
           image:
-            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.4-202609212200-18-trixie@sha256:1c2c368e41258a73ce93c99fecfee6b906fa8af3df5d3d24c4ad60510c80eab0
+            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.4-202609260134-18-trixie@sha256:0d1b95d40752086bf91d1bf1b3a1bf0349be20aab8df9b19a4d6f9e206bc7d77
         - name: pg-stat-kcache
           image:
             reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202609251025-18-trixie@sha256:31ebdbfbe861942f6b3f394447b10dafc95824e19b417ba2f78c46d39e38edc7
