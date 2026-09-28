@@ -49,7 +49,7 @@ spec:
             - system
         - name: pg-crash
           image:
-            reference: ghcr.io/cloudnative-pg/pg-crash:0.3-202609251425-18-trixie@sha256:292b5dbbb2af96ac78e3c6debad6efd7c1526e11e8b76635b2c66fcb72f1cc74
+            reference: ghcr.io/cloudnative-pg/pg-crash:0.3-202609281316-18-trixie@sha256:40310e4767bfd9bf8f093f3216f1808abb3f77b2e1b8b2ad57664bd00206522b
         - name: pg-cron
           image:
             reference: ghcr.io/cnpg-extensions/pg-cron:1.6.8-202609260814-18-trixie@sha256:d3bef47f8bbad9e9e60c29d634dd6707032ca2f8dff0a2e2d4b5a21c0f203f35
@@ -58,7 +58,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-hint-plan:1.8.0-202609260815-18-trixie@sha256:a1d63454f0af7d21da66e1ab0c1a41cf270abfb53db42b408001e024c02db711
         - name: pg-ivm
           image:
-            reference: ghcr.io/cloudnative-pg/pg-ivm:1.15-202609251307-18-trixie@sha256:83cdb64b1c3f16cace2a6733ae79e9f1ce40d6cd7d33987962fe86b6c302d6d1
+            reference: ghcr.io/cloudnative-pg/pg-ivm:1.15-202609281316-18-trixie@sha256:d5e91b12fda634b85c7db96399652ec2910628d02f2e714548a4942267e0cdda
         - name: pg-partman
           image:
             reference: ghcr.io/cnpg-extensions/pg-partman:5.5.0-202609260815-18-trixie@sha256:9c727fbf99be697438d63a328a3023092ab4c1c73b58051fbcbcac96b9df86ac
@@ -89,7 +89,7 @@ spec:
             - pgagent
         - name: pgaudit
           image:
-            reference: ghcr.io/cloudnative-pg/pgaudit:18.0-202609251306-18-trixie@sha256:fee6ebe5a65bd33c7e2de3a90ca7267333f7fc28667556424c1ca0924ff974d2
+            reference: ghcr.io/cloudnative-pg/pgaudit:18.0-202609281316-18-trixie@sha256:d586b7c3ce0cf487a542de7f071d6790e3d77d854486a50b29bdd85405c8bbe1
         - name: pgmemcache
           image:
             reference: ghcr.io/cnpg-extensions/pgmemcache:2.3.0-202609260816-18-trixie@sha256:91c7ef60a9734f68ca2cfeca2775deb47c6de2058fe17ebf889cb23e1401f14f
@@ -100,7 +100,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pgmp:1.0.6-202609260815-18-trixie@sha256:850c7fd396619208c509a227461cc3ff4d8528534852d818e7dacedc45ae7dde
         - name: pgrouting
           image:
-            reference: ghcr.io/cloudnative-pg/pgrouting:4.0.1-202609251307-18-trixie@sha256:2d0a50770c4f1888c7c455ec1ca2f717bc4a20a52c6476e5d48d143aed5f9058
+            reference: ghcr.io/cloudnative-pg/pgrouting:4.0.1-202609281316-18-trixie@sha256:0221a1a93b541cb66761c3f877f260d08d576d5f83e09a7a526e043cc451d7ed
         - name: pgsentinel
           image:
             reference: ghcr.io/cnpg-extensions/pgsentinel:1.5.0-202609260814-18-trixie@sha256:a5d2b041472a711efca2618bcfdc97490ad79d117220f10fd5e55c87acc1230b
@@ -111,7 +111,7 @@ spec:
             - system
         - name: pgvector
           image:
-            reference: ghcr.io/cloudnative-pg/pgvector:0.8.6-202609251417-18-trixie@sha256:fe517782e149bcefeaaa9fddda7ec5d489fc006df1808ad781305995f1f94090
+            reference: ghcr.io/cloudnative-pg/pgvector:0.8.6-202609281316-18-trixie@sha256:f0a5f46f5825a57a9c1dbb3a02af48af520da8b1138b77655c2cba074b2cbcdb
         - name: pldebugger
           image:
             reference: ghcr.io/cnpg-extensions/pldebugger:1-1.10-202609260816-18-trixie@sha256:56e0eace3d3ce9e436c6dd3996d305a1eccc1147f704dfb620976a1d2fb4ed90
@@ -128,7 +128,7 @@ spec:
             - system
         - name: postgis
           image:
-            reference: ghcr.io/cloudnative-pg/postgis-extension:3.6.4-202609251307-18-trixie@sha256:84e96640765ee4739976c17ad60b8074762ff54d8adb7dbd91c4f8338a6a234e
+            reference: ghcr.io/cloudnative-pg/postgis-extension:3.6.4-202609281316-18-trixie@sha256:c5cdc0ebfac2bd07cd40f42badc2e11e1a66f274d293cb5fec618d4f5ecde731
           ld_library_path:
             - system
           env:
@@ -154,10 +154,10 @@ spec:
             - system
         - name: timescaledb-oss
           image:
-            reference: ghcr.io/cloudnative-pg/timescaledb-oss:2.30.1-202609251307-18-trixie@sha256:80c6a2058b1c0a3087d726b61b1c61609f0114c6e7c4cbbafe65ecb17ce207a2
+            reference: ghcr.io/cloudnative-pg/timescaledb-oss:2.30.1-202609281316-18-trixie@sha256:ec405cc0178adeca42aa3900c09c385271c9e6112bf7dc15d39fa046884ddce8
         - name: toastinfo
           image:
             reference: ghcr.io/cnpg-extensions/toastinfo:1.7-202609260815-18-trixie@sha256:666c63428d55624990143d9b999101d50b87f345653d45ba24d14e7c2584563b
         - name: wal2json
           image:
-            reference: ghcr.io/cloudnative-pg/wal2json:2.6-202609251307-18-trixie@sha256:509b832b5370c5df9c21c06239445a5ec224148161056385a7636bf167234929
+            reference: ghcr.io/cloudnative-pg/wal2json:2.6-202609281316-18-trixie@sha256:913a9f17ceadf3db36272954db7df18ad9bb9c80ca6d28de4541a4868af345ea
