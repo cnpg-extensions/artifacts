@@ -39,12 +39,12 @@ spec:
             reference: ghcr.io/cnpg-extensions/hypopg:1.4.3-202609260814-18-trixie@sha256:583a7093684c1257c08e783a0f91fecfa760221d24fc6b0f60ea80c1704d344a
         - name: mobilitydb
           image:
-            reference: ghcr.io/cnpg-extensions/mobilitydb:1.3.0-202609260816-18-trixie@sha256:98b7ed0a0f51e20f706a116dc44b9fd0184db59b41a86cf79d537a783eb6c435
+            reference: ghcr.io/cnpg-extensions/mobilitydb:1.3.0-202609280930-18-trixie@sha256:3548cbda2f60fa60756806388ac03af8fc7d42a485e77da3e7fe07f19bd8ced3
           ld_library_path:
             - system
         - name: mysql-fdw
           image:
-            reference: ghcr.io/cnpg-extensions/mysql-fdw:2.9.3-202609260858-18-trixie@sha256:c1d7f91ffb1f033f654ef48a7c901b00226005951fef3ec253073a9f463b26b0
+            reference: ghcr.io/cnpg-extensions/mysql-fdw:2.9.3-202609280933-18-trixie@sha256:5b6e4d6921ee2b0ce63fbdd61bd763b9c1ea392458995c74433305a93f0796d9
           ld_library_path:
             - system
         - name: pg-crash
