@@ -39,7 +39,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/hypopg:1.4.3-202609291124-18-trixie@sha256:09a059dcf2d46cd63eb3ea5a0929ae49b127c0b60b59e2389e9cbe21902b2fb6
         - name: mobilitydb
           image:
-            reference: ghcr.io/cnpg-extensions/mobilitydb:1.3.0-202609291124-18-trixie@sha256:011a87b999d66eacee742fbf872688a445631de2edcb596e3bc711ec97b1c556
+            reference: ghcr.io/cnpg-extensions/mobilitydb:1.3.0-202610010957-18-trixie@sha256:5fdc79d9090166cb4745c26cbb975ba2904abd04ad03a5ce5cbdac35e7e760e4
           ld_library_path:
             - system
         - name: mysql-fdw
@@ -103,7 +103,7 @@ spec:
             reference: ghcr.io/cloudnative-pg/pgrouting:4.0.1-202609291001-18-trixie@sha256:48d5e647a1af813b34aac8ed23bc15f538fdb8e14fa39ed571b2cb40925ccb85
         - name: pgsentinel
           image:
-            reference: ghcr.io/cnpg-extensions/pgsentinel:1.5.0-202609291124-18-trixie@sha256:ea1f0bf7af723ccf29478746509f0fdaf78390de92152f2e7a78cbd32f4e57b0
+            reference: ghcr.io/cnpg-extensions/pgsentinel:1.5.1-202610011110-18-trixie@sha256:78119b73ce38536e42b134b43574caa430987320aa0954fe6439044cebc4f181
         - name: pgsphere
           image:
             reference: ghcr.io/cnpg-extensions/pgsphere:1.5.2-202609291124-18-trixie@sha256:b0f86f5581634e70005d90231163eb512ce336685fa8a9576b5b2d5dd978b111
@@ -123,7 +123,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/plprofiler:4.2.5-202609291125-18-trixie@sha256:676e53fd10cb95c96d13fa5086238685bc9c953b56c852ab48c6e8d6d4f22f87
         - name: plr
           image:
-            reference: ghcr.io/cnpg-extensions/plr:1-8.4.8.7-202609291124-18-trixie@sha256:fcbf0aed248b6d96134bf2378aa8d5d527b12bb6a9cff6d5b91881f92b2979ba
+            reference: ghcr.io/cnpg-extensions/plr:1-8.4.8.7-202610010954-18-trixie@sha256:dab8ecde459fe0a589ce79a660e797f096af255900c9537b1daa55cd1e427c64
           ld_library_path:
             - system
         - name: postgis
