@@ -39,7 +39,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/hypopg:1.4.3-202610020041-18-trixie@sha256:05cad30c627affef8eb1a3f7abf6fa73b0e1a76c004e7b71f41145b5aaabae06
         - name: mobilitydb
           image:
-            reference: ghcr.io/cnpg-extensions/mobilitydb:1.3.0-202610020042-18-trixie@sha256:15a507cb2548aabe0058140e5ad1c7d981bfb57e380f5c48a4b5a778ff45a5e5
+            reference: ghcr.io/cnpg-extensions/mobilitydb:1.3.0-202610020930-18-trixie@sha256:52842986df45bc83731148bb3e75d1a201f219b349b7e66790fd9e20c08e9b16
           ld_library_path:
             - system
         - name: mysql-fdw
@@ -123,7 +123,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/plprofiler:4.2.5-202610020041-18-trixie@sha256:2d5f29f01d702fc95f82af99b9e580b60ac068a232d2a1fb48b7430a91d9d607
         - name: plr
           image:
-            reference: ghcr.io/cnpg-extensions/plr:1-8.4.8.7-202610020041-18-trixie@sha256:f4b5ddeb325be3554e53a6b4b6673a4bc6fd805e52114700f5e9d803a00e9926
+            reference: ghcr.io/cnpg-extensions/plr:1-8.4.8.7-202610020930-18-trixie@sha256:0b627497335d014bb6038245f9afdf05901735964e2bb5157e3280dc1102d5d7
           ld_library_path:
             - system
         - name: postgis
