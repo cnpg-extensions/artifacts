@@ -3,7 +3,7 @@ kind: ClusterImageCatalog
 metadata:
   name: postgresql-minimal-bookworm
   labels:
-    images.cnpg.io/date: "20261005"
+    images.cnpg.io/date: "20261012"
     images.cnpg.io/family: postgresql
     images.cnpg.io/os: bookworm
     images.cnpg.io/publisher: cnpg.io
@@ -13,15 +13,15 @@ spec:
     - major: 13
       image: ghcr.io/cloudnative-pg/postgresql:13.22-202511100817-minimal-bookworm@sha256:02e8ffc71aec2768ca177711278d3c0e6ceb5403df5fa6d3780cd590332e3a5d
     - major: 14
-      image: ghcr.io/cloudnative-pg/postgresql:14.24-202610050823-minimal-bookworm@sha256:ac452aec2a34ee69b8c1d7825298a486bbd1d5e7e5bfdd30c379e0f558506796
+      image: ghcr.io/cloudnative-pg/postgresql:14.24-202610120828-minimal-bookworm@sha256:c9c9157ef76efdd74dc5f953023da770247bd07943a2348c47f31e0617decaf7
     - major: 15
-      image: ghcr.io/cloudnative-pg/postgresql:15.19-202610050823-minimal-bookworm@sha256:4c3200ec89ee8a10194419255d9aea1747dac283a902ae88fdd8f634eb300b3a
+      image: ghcr.io/cloudnative-pg/postgresql:15.19-202610120828-minimal-bookworm@sha256:304d52ee3fca089ef2678021e5941ae7f692c15203edfe6a12b48f6aa579aa10
     - major: 16
-      image: ghcr.io/cloudnative-pg/postgresql:16.15-202610050823-minimal-bookworm@sha256:ef8b9050cd09b2786ce109a91836e45b2e2b3f0c7850c68780fecc7508ee8ccd
+      image: ghcr.io/cloudnative-pg/postgresql:16.15-202610120828-minimal-bookworm@sha256:d67a9ae055afd7a7c11631802be4aaac461439778e097549766647e1db95a94b
     - major: 17
-      image: ghcr.io/cloudnative-pg/postgresql:17.11-202610050823-minimal-bookworm@sha256:27e1f3159ac290a2b37395a47b643c63c36fc1eaf66732641b7d257e8a7bd4a0
+      image: ghcr.io/cloudnative-pg/postgresql:17.11-202610120828-minimal-bookworm@sha256:2ee55a4e8bd6475dd7e35237b79966818a4e9ccbc49e78695caa1f59d73d7b9d
     - major: 18
-      image: ghcr.io/cloudnative-pg/postgresql:18.6-202610050823-minimal-bookworm@sha256:f628c20df695b257d05da9ef9a5e5eb583e7a101f61c57b25629d026a0167eff
+      image: ghcr.io/cloudnative-pg/postgresql:18.6-202610120828-minimal-bookworm@sha256:571e8d8d8cad6c518dd04fc0653b1a4b9bceb849a32c423aa2b89fa43cd30d71
       extensions:
         - name: age
           image:
@@ -111,7 +111,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-background:2.0.3-202610100823-18-bookworm@sha256:2ec4d6d20c3d5a20478fcfcb7f74e38665018a181c9cf4119b6de7c4d7303c31
         - name: pg-crash
           image:
-            reference: ghcr.io/cloudnative-pg/pg-crash:0.3-202610110023-18-bookworm@sha256:5e608f780f8c16a93bc64c8caefcc069fd53f4ccb9b05ec230eda7ceebcfd563
+            reference: ghcr.io/cloudnative-pg/pg-crash:0.3-202610110422-18-bookworm@sha256:eb8f3fe07018bfd7709603dcdc109eb83c4c779d3d5da70bebbc6f64962539fc
         - name: pg-cron
           image:
             reference: ghcr.io/cnpg-extensions/pg-cron:1.6.8-202610100822-18-bookworm@sha256:fc3f67b2e879e6b03330b9ccc6e80202209e9950a48479ac6520631eaddf0a93
@@ -126,7 +126,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-hint-plan:1.8.0-202610100820-18-bookworm@sha256:c67d50fc5053150aa10a6a2e1b087fa3593fc004460baaba74673c4c16c550af
         - name: pg-ivm
           image:
-            reference: ghcr.io/cloudnative-pg/pg-ivm:1.15-202610110023-18-bookworm@sha256:015431d42eff03c7f0d746166c684e00b37b743939d5d266333876ffdea69d36
+            reference: ghcr.io/cloudnative-pg/pg-ivm:1.15-202610110422-18-bookworm@sha256:8f7f8cb6ec80bcb9fde059f702196d308fa53b5135748e42c79696075d11dd4f
         - name: pg-partman
           image:
             reference: ghcr.io/cnpg-extensions/pg-partman:5.5.0-202610100823-18-bookworm@sha256:9f72a787675feaad54ba41120e02918e4c0a194550787f0ff287f595d380d0c9
@@ -184,7 +184,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-wait-sampling:1.1.11-202610100822-18-bookworm@sha256:0df92461b6a327c015cd550fed60b9188a91db0a9289fb1c5267cdb9ab5b8646
         - name: pgaudit
           image:
-            reference: ghcr.io/cloudnative-pg/pgaudit:18.0-202610110023-18-bookworm@sha256:7f824d9b08ec45c801a72764ab45fd1ad3831e9ac0d6b542388c257b054369e2
+            reference: ghcr.io/cloudnative-pg/pgaudit:18.0-202610110422-18-bookworm@sha256:14011274a682bc642c354d539ea7b05a60bd9da7f2a37c442b1a89bf21f88015
         - name: pgextwlist
           image:
             reference: ghcr.io/cnpg-extensions/pgextwlist:1.20-202610100820-18-bookworm@sha256:fe9c259f47cc02c23999699cc04f10ad70e0b71aa436500aa0990cdf4cda744e
@@ -213,7 +213,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pgq:3.5.1-202610100824-18-bookworm@sha256:8af9d34f7d45a9e49e450719a5815d98751664111092a7f405a16909b8a85ea0
         - name: pgrouting
           image:
-            reference: ghcr.io/cloudnative-pg/pgrouting:4.0.1-202610110023-18-bookworm@sha256:7ca7622b8ff14eb6b946b3680b23528fe62577179ff29e061dd1eadb6bbf6da6
+            reference: ghcr.io/cloudnative-pg/pgrouting:4.0.1-202610110422-18-bookworm@sha256:6b7047b2833b1dea5930cf75205c938ca155a9993ab544ee618c28853f540e8b
         - name: pgsentinel
           image:
             reference: ghcr.io/cnpg-extensions/pgsentinel:1.5.1-202610100824-18-bookworm@sha256:1d28524e43ccdafac8b8b4446adacd89f60c31163da3bd7d9ab70716bfed9601
@@ -230,7 +230,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pgtt:4.6-202610100820-18-bookworm@sha256:06e15be963dc52c719c650a978fefc23d637e14b74d76cdd1b70d1b061b9a495
         - name: pgvector
           image:
-            reference: ghcr.io/cloudnative-pg/pgvector:0.8.7-202610110023-18-bookworm@sha256:7b28c933ec9090fea2bb132d433663790cc0f584feed96234fea96aed9c5c57c
+            reference: ghcr.io/cloudnative-pg/pgvector:0.8.7-202610110422-18-bookworm@sha256:eb1f6b0b1adaf2c66d9da88412b33c405441b25dc9b0648d58d20b8f858d68ce
         - name: pldebugger
           image:
             reference: ghcr.io/cnpg-extensions/pldebugger:1-1.10-202610100823-18-bookworm@sha256:e51b96a844b37c98c81869230159c9a1fe5f42c5b532f8ca2033419864802c5a
@@ -269,7 +269,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pointcloud:1.2.5-202610100826-18-bookworm@sha256:d793bdcf828494226082e0326f782f78e8b7a579a65cae7a7c328ea2bf10bd00
         - name: postgis
           image:
-            reference: ghcr.io/cloudnative-pg/postgis-extension:3.6.4-202610110023-18-bookworm@sha256:1cb11a3137a27ddcca617fdacd52434a817f26150a044c3de1af3e27860f68f2
+            reference: ghcr.io/cloudnative-pg/postgis-extension:3.6.4-202610110422-18-bookworm@sha256:8c3be3cfa0fee05a8a64e49e8b4b58c83023e51aeb642de09ad0f60b39b206cc
           ld_library_path:
             - system
           env:
@@ -323,7 +323,7 @@ spec:
             - system
         - name: timescaledb-oss
           image:
-            reference: ghcr.io/cloudnative-pg/timescaledb-oss:2.30.2-202610110023-18-bookworm@sha256:c0d479936f183d581a6f9db4f11f2523a290ba0325f0f1f521731c5f65b8316c
+            reference: ghcr.io/cloudnative-pg/timescaledb-oss:2.30.2-202610110422-18-bookworm@sha256:ce65fac858ff86ff758b2394c7c9c51116ffbf94e6e5840ba7de9f781e867f84
         - name: timestamp9
           image:
             reference: ghcr.io/cnpg-extensions/timestamp9:1.4.0-202610100825-18-bookworm@sha256:75504123c25ff7bb6f626d12b70b77473909668a5264e9b698ea608f359f03c9
@@ -335,4 +335,4 @@ spec:
             reference: ghcr.io/cnpg-extensions/unit:7.10-202610100827-18-bookworm@sha256:ba0917408d75d45c55068af3c4661517a3d051cb0d6411ea2a216a77aeabc10f
         - name: wal2json
           image:
-            reference: ghcr.io/cloudnative-pg/wal2json:2.6-202610110023-18-bookworm@sha256:d22f9a26fea2b6d8237455c2bf7bd34aa8beb46d0f740aca8954b33281ddd3cb
+            reference: ghcr.io/cloudnative-pg/wal2json:2.6-202610110422-18-bookworm@sha256:dddacf0a141fff8ef89402eb2a04bcee2aec0d509c01e3a9e59e5effb5117d1b
