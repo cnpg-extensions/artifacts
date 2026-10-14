@@ -224,7 +224,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pgsentinel:1.5.1-202610100824-18-trixie@sha256:0762aa46268c684bcf2586d743eb9d0c958b2a3894bb0bd475d0a3794d316b95
         - name: pgsphere
           image:
-            reference: ghcr.io/cnpg-extensions/pgsphere:1.5.2-202610100823-18-trixie@sha256:b0b9e9b26dbac0ab75583d9a799d88e3b0310ac0d8966468317cb0fb5b331c75
+            reference: ghcr.io/cnpg-extensions/pgsphere:1.5.2-202610140832-18-trixie@sha256:04aca5965149a991a8a158d400e1745d452bf287fb51f971f6206291d034535a
           ld_library_path:
             - system
         - name: pgtap

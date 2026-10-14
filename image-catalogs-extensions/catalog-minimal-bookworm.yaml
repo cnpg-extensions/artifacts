@@ -219,7 +219,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pgsentinel:1.5.1-202610100824-18-bookworm@sha256:1d28524e43ccdafac8b8b4446adacd89f60c31163da3bd7d9ab70716bfed9601
         - name: pgsphere
           image:
-            reference: ghcr.io/cnpg-extensions/pgsphere:1.5.2-202610100823-18-bookworm@sha256:54e6f0b0a9d9e4c80db8c6edcac98b451159c1fbaa91e429a92d4978f593518d
+            reference: ghcr.io/cnpg-extensions/pgsphere:1.5.2-202610140832-18-bookworm@sha256:896b6a964f816dd8b2ddc8d1a5f93c1d46cf8efce804a4e48d0321552895a04f
           ld_library_path:
             - system
         - name: pgtap
