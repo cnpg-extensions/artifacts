@@ -84,7 +84,7 @@ spec:
             - system
         - name: mysql-fdw
           image:
-            reference: ghcr.io/cnpg-extensions/mysql-fdw:2.9.3-202610141916-18-bookworm@sha256:612625acbe1cc1f450d648ff161f9866b84a4ef8f520f46a6cf421047b917014
+            reference: ghcr.io/cnpg-extensions/mysql-fdw:2.9.3-202610150808-18-bookworm@sha256:0032bcb0ad6977f3c3acbf77ddfe946a74ce362333bb5f1e350e0f25d00f39b2
           ld_library_path:
             - system
         - name: numeral
