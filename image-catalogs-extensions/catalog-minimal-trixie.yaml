@@ -198,7 +198,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pgfincore:1.4.0-202610170706-18-trixie@sha256:362d43384b22b73f3a556e19f3796557b40a4432087e7614550bf125abd7149d
         - name: pglogical
           image:
-            reference: ghcr.io/cnpg-extensions/pglogical:2.4.8-202610170655-18-trixie@sha256:cf320d4162d4030b3e695456f7ec791eb7169520c78295651aa0d1f375ea2ca0
+            reference: ghcr.io/cnpg-extensions/pglogical:2.4.8-202610170707-18-trixie@sha256:d262a44a56085d4e4b8d9110e1922b55b9fbfdba9ae533a749278f15adc224b5
         - name: pgmemcache
           image:
             reference: ghcr.io/cnpg-extensions/pgmemcache:2.3.0-202610170703-18-trixie@sha256:1c5f61c4b40c7704337e22fdd563bec08aafdff8389bab0b4c4855532ad51a0e

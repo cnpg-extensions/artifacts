@@ -193,7 +193,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pgfincore:1.4.0-202610170706-18-bookworm@sha256:93ad8da8b931dea645fe78c21e11e4976323ba415d2d200ffeb91e9a20deb820
         - name: pglogical
           image:
-            reference: ghcr.io/cnpg-extensions/pglogical:2.4.8-202610170655-18-bookworm@sha256:0481e605dcf8ce285628dcd71eca98f374d3ca9d50de2d12e88b5c2b687a92bb
+            reference: ghcr.io/cnpg-extensions/pglogical:2.4.8-202610170707-18-bookworm@sha256:76c3bdafb2d3e2a468f4e5fd9e182376eb5c3c0af655ba3d8a8229287b5ea028
         - name: pgmemcache
           image:
             reference: ghcr.io/cnpg-extensions/pgmemcache:2.3.0-202610170703-18-bookworm@sha256:8ee0f1ff1130274451ddc8eb71321af62aefd1f6cba6d2bdd872e8d8550a88e8
