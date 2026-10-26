@@ -172,7 +172,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-stat-plans:2.1.1-202610261959-18-bookworm@sha256:2a8311302422ab84fa145c23141f671df786c41e5efff1244d561e9d045fcd5d
         - name: pg-statviz
           image:
-            reference: ghcr.io/cnpg-extensions/pg-statviz:1.2.1-202610241425-18-bookworm@sha256:409ef3b01bd65ab207414ec08e5317baf71e6e04deea81d4b024cea7a0fcbf99
+            reference: ghcr.io/cnpg-extensions/pg-statviz:1.2.1-202610261955-18-bookworm@sha256:fa27de70d4d7fbf15d9dcf0ab9a496dda87291d98def6e038b703a3daef6ec4f
         - name: pg-track-settings
           image:
             reference: ghcr.io/cnpg-extensions/pg-track-settings:2.1.2-202610261955-18-bookworm@sha256:1f379f29aacbdba7606d6c53caf994b23cc79b4c9fc36b253f5007b582910058

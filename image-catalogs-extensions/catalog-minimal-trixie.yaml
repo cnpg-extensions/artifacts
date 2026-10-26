@@ -177,7 +177,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-stat-plans:2.1.1-202610261959-18-trixie@sha256:556e18ea8b373e905e8428093f6a67e6ca3038edcee3bdcd12c31ea8637aaef9
         - name: pg-statviz
           image:
-            reference: ghcr.io/cnpg-extensions/pg-statviz:1.2.1-202610241425-18-trixie@sha256:f3a0c2b711c3c198462afb46049b5604208884b585211b1de0ef143ab8a0444f
+            reference: ghcr.io/cnpg-extensions/pg-statviz:1.2.1-202610261955-18-trixie@sha256:92c747e755f6e000a3ecb60ce93bcc9279915189d6dde456c368256d952ab6a0
         - name: pg-track-settings
           image:
             reference: ghcr.io/cnpg-extensions/pg-track-settings:2.1.2-202610261955-18-trixie@sha256:14812fe7d4964493632422146a7311b795d6dab3bb84d6a96c485b23b2b19dbd
