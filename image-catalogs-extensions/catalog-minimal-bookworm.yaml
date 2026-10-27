@@ -123,7 +123,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-dirtyread:2.8-202610261955-18-bookworm@sha256:d56c43d06705678e0259d178a09e572e849b5323e0ce1c3363e0e76521c67e10
         - name: pg-hint-plan
           image:
-            reference: ghcr.io/cnpg-extensions/pg-hint-plan:1.8.0-202610261955-18-bookworm@sha256:6a1c0b5eea82eb983f3dd406485d35fa2c0333fba6c40a937f508a77edb667ae
+            reference: ghcr.io/cnpg-extensions/pg-hint-plan:1.8.1-202610270143-18-bookworm@sha256:653bac067cb8a8186049ead68c58a71ee0abe460ff9f5adda0faae1c6e23af37
         - name: pg-ivm
           image:
             reference: ghcr.io/cloudnative-pg/pg-ivm:1.15-202610261016-18-bookworm@sha256:7baa73c2529ca321170bd33846cab0acb6f611cb9b5f59c80de372c24290b25a

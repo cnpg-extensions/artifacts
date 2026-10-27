@@ -128,7 +128,7 @@ spec:
             - system
         - name: pg-hint-plan
           image:
-            reference: ghcr.io/cnpg-extensions/pg-hint-plan:1.8.0-202610261955-18-trixie@sha256:61ab965d413447211552ff3480efe967fbe424eb1a6e7d2846cadb2cc636c771
+            reference: ghcr.io/cnpg-extensions/pg-hint-plan:1.8.1-202610270143-18-trixie@sha256:ac2a8e84a2c7d57ce4c0a25ffb32dcc0635ad73f3b1919afe6c1a04581280b35
         - name: pg-ivm
           image:
             reference: ghcr.io/cloudnative-pg/pg-ivm:1.15-202610261016-18-trixie@sha256:efd792f83dc8e3f3afeab0d14f69d079e1e566afe76111184c5d35b8464772bd
