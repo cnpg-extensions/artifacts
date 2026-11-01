@@ -31,7 +31,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/asn1oid:1.6-202610311308-18-bookworm@sha256:71d94a46c86afdc9f35982edb12d62def81eca734321baa239bc332fda7f2f52
         - name: credcheck
           image:
-            reference: ghcr.io/cnpg-extensions/credcheck:5.0-202610311306-18-bookworm@sha256:0b591ddf1e01ca73c73fe2e6e533324d2cebc5830bb3b5220f3f16eabd473996
+            reference: ghcr.io/cnpg-extensions/credcheck:6.0-202611010140-18-bookworm@sha256:271e17b07640197ddc4a6bbc0ee31c1425f2b596dfaff4410cb50fdfd11633b1
         - name: db2fce
           image:
             reference: ghcr.io/cnpg-extensions/db2fce:0.0.17-202610311310-18-bookworm@sha256:019519e9e551b2d455e1b57fb4739e02c4e3e0429ef3ec567092fd6e4afbef89

@@ -31,7 +31,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/asn1oid:1.6-202610311308-18-trixie@sha256:c02b25e7a66d487d1771241b042190d75db2065ba0e7cbab1fd199b94c9fb08c
         - name: credcheck
           image:
-            reference: ghcr.io/cnpg-extensions/credcheck:5.0-202610311306-18-trixie@sha256:e0f8181343bd0823804c9d11ea36b5d52689d062d4d8db5175aae3632fa82c8f
+            reference: ghcr.io/cnpg-extensions/credcheck:6.0-202611010140-18-trixie@sha256:cccbcf7b7593e090ecd49d9f2139aebf392c57ecd6959b461912871486544625
         - name: db2fce
           image:
             reference: ghcr.io/cnpg-extensions/db2fce:0.0.17-202610311310-18-trixie@sha256:472700717743b70c696b268c0dd917abbf489545583a5e5359247a99bae24894
