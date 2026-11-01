@@ -171,7 +171,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202610311309-18-trixie@sha256:fcb477e888c8b39a4ea042caaa9c9d08e88ce8f7fe6820fcbd7ad9bef39ee1d9
         - name: pg-stat-log
           image:
-            reference: ghcr.io/cnpg-extensions/pg-stat-log:0.2-202610311309-18-trixie@sha256:ebc7571e05c3141b2e36ba09c1cbcdf6d4c123b874fec638839933d94e94aaaa
+            reference: ghcr.io/cnpg-extensions/pg-stat-log:0.3-202611010116-18-trixie@sha256:8b8de417b01506c6a0b8268d7d0cd0d0a972bda1d4b9af605aa2008073ea17d9
         - name: pg-stat-plans
           image:
             reference: ghcr.io/cnpg-extensions/pg-stat-plans:2.1.1-202610311311-18-trixie@sha256:865d656c1ba0859ac9ebdca61e933ddbaa93b1baaf6fb4568c712a0d044dd2fe

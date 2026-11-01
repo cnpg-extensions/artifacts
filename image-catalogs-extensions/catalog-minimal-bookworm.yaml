@@ -166,7 +166,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202610311309-18-bookworm@sha256:3a230e22083adb31cd18749ac1ada7716ffbab7d03518253115d0786f5d9a771
         - name: pg-stat-log
           image:
-            reference: ghcr.io/cnpg-extensions/pg-stat-log:0.2-202610311309-18-bookworm@sha256:e16448848d2a070157aead719c0dfca51b3b0961f8a30a2cb03c1fe02cefc10d
+            reference: ghcr.io/cnpg-extensions/pg-stat-log:0.3-202611010116-18-bookworm@sha256:b25d380c9e94d3993ea51543a2f1fac22f1b935659b5004b06182def8dbfcfe1
         - name: pg-stat-plans
           image:
             reference: ghcr.io/cnpg-extensions/pg-stat-plans:2.1.1-202610311311-18-bookworm@sha256:9c11d50e2d6371d9de16fc502ea6879d2bf371cee48318f50da83af2c8648466
