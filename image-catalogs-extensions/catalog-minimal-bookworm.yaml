@@ -64,7 +64,7 @@ spec:
             - system
         - name: hypopg
           image:
-            reference: ghcr.io/cnpg-extensions/hypopg:1.4.4-202611011133-18-bookworm@sha256:108927e71d4444aaa21e6f79cd3018f833a4b2f80c195c5ffdcff6629585e00f
+            reference: ghcr.io/cnpg-extensions/hypopg:1.4.5-202611011810-18-bookworm@sha256:72ad448e183a0831f44323310322bde8a1598973041584056ed1d859b2c0119c
         - name: icu-ext
           image:
             reference: ghcr.io/cnpg-extensions/icu-ext:1.11.0-202611011128-18-bookworm@sha256:fa8d8a40420a4999270aec8333b80b2509790fb69f333b638167d8209d9b1abc
