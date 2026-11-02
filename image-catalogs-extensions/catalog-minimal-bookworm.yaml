@@ -269,7 +269,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pointcloud:1.2.5-202611011139-18-bookworm@sha256:af466ee963cfd7d8a432ea809757493eab1388d79eaeab54c0200e3451e86902
         - name: postgis
           image:
-            reference: ghcr.io/cloudnative-pg/postgis-extension:3.6.4-202611010824-18-bookworm@sha256:a5f313bfec1e44006d480ac2275db6ec4ddfe5ca2010bbcedeb769ceeb96ee0d
+            reference: ghcr.io/cloudnative-pg/postgis-extension:3.7.0-202611021320-18-bookworm@sha256:2fe651e7bb53077c0bc8986fe352e8c656adf54028c4b37086690648992dac0a
           ld_library_path:
             - system
           env:
