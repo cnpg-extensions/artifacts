@@ -244,7 +244,7 @@ spec:
             - system
         - name: plpgsql-check
           image:
-            reference: ghcr.io/cnpg-extensions/plpgsql-check:2.10.15-202611030706-18-bookworm@sha256:5bce66f55899797f466a47cd2e16018ff45795cbf9c47fcc0eb3084ca7ae70de
+            reference: ghcr.io/cnpg-extensions/plpgsql-check:2.10.16-202611032335-18-bookworm@sha256:d6858c4399c8d0aea6d152d70cb56173abb20036501fe615f8607b4cf534f583
         - name: plprofiler
           image:
             reference: ghcr.io/cnpg-extensions/plprofiler:4.2.5-202611030704-18-bookworm@sha256:34fcca20c22ccc0d549d12a98168605e3feb84a185a55d7566e256c181131785

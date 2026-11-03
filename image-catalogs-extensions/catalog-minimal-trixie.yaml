@@ -249,7 +249,7 @@ spec:
             - system
         - name: plpgsql-check
           image:
-            reference: ghcr.io/cnpg-extensions/plpgsql-check:2.10.15-202611030706-18-trixie@sha256:9bf5fd3e35ca97f07c754a3cd7f2654c82421487f5b231915c67899429328823
+            reference: ghcr.io/cnpg-extensions/plpgsql-check:2.10.16-202611032335-18-trixie@sha256:06fefbb9021475a7afa8e15a24dde5162ec3ffab1c0ec6395f1cf867fbf8c50b
         - name: plprofiler
           image:
             reference: ghcr.io/cnpg-extensions/plprofiler:4.2.5-202611030704-18-trixie@sha256:7e1b8706a261b4576224fcb4957484ff8434be336ee94f5eeba89b19937d998b
