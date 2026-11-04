@@ -316,7 +316,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/semver:0.42.0-202611030708-18-trixie@sha256:0c8fdaea78d0220dc811a0d22203b62c97303d0989244fc329d07fca6fcc4738
         - name: set-user
           image:
-            reference: ghcr.io/cnpg-extensions/set-user:4.2.0-202611030708-18-trixie@sha256:44c5a3bb4dae54dbaa8f1da5d7116c0040f0d3a68f828601a8bc4d5629b4b61a
+            reference: ghcr.io/cnpg-extensions/set-user:4.3.0-202611041634-18-trixie@sha256:f86ffbb57834584b5d24a2a483dd98e97a31517273bedd523161e5e3589443da
         - name: show-plans
           image:
             reference: ghcr.io/cnpg-extensions/show-plans:2.1.8-202611030708-18-trixie@sha256:79acae930482ff1fe2e6104b478a5358e283112f2ebeab0859b8d24dcb68b851
