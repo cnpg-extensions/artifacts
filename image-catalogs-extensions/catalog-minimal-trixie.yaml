@@ -296,7 +296,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/prioritize:1.0.4-202611061151-18-trixie@sha256:d681064689349a497f1957feb2980c59a1f78fb1f8368a52c88d3a0fdb5c4cb1
         - name: q3c
           image:
-            reference: ghcr.io/cnpg-extensions/q3c:2.0.5-202611061151-18-trixie@sha256:005a1ff9c3759e6122c6ef707002e3abda05d0ee96c9a46364700d19f3a3f476
+            reference: ghcr.io/cnpg-extensions/q3c:2.0.6-202611061630-18-trixie@sha256:15d6024cc4e2824f0bc91399d57240851f039d61df6248ce6f66292178190a89
         - name: rational
           image:
             reference: ghcr.io/cnpg-extensions/rational:0.0.3-202611061153-18-trixie@sha256:862b80e2899d5e5bb604fd38dd4fc2c6df0b04a1e4d6267c2283281a14fe546e

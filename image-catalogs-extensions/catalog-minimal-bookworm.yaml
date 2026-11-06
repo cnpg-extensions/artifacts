@@ -291,7 +291,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/prioritize:1.0.4-202611061151-18-bookworm@sha256:f0e302a98bc8b41500379a57d7b13433983328604a53a7faf6539c70cf7e3c8c
         - name: q3c
           image:
-            reference: ghcr.io/cnpg-extensions/q3c:2.0.5-202611061151-18-bookworm@sha256:6fe681bf05bc01895e49bb65339ae2df53ea932a1f6c50596878d4a773702a40
+            reference: ghcr.io/cnpg-extensions/q3c:2.0.6-202611061630-18-bookworm@sha256:5681004eb888569bea0c1f5e731c6df3c01cfe15a5d19c25226c10331dee0192
         - name: rational
           image:
             reference: ghcr.io/cnpg-extensions/rational:0.0.3-202611061153-18-bookworm@sha256:2c647b406a8ffcfc8b20d26f7f17dac9eca70f2083c0b45318012268e930e538
