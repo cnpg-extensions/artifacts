@@ -169,9 +169,7 @@ spec:
             - system
         - name: pg-search
           image:
-            reference: ghcr.io/cnpg-extensions/pg-search:v0.25.6-202611101057-18-bookworm@sha256:a2c39ff1fc4b0117ef74beab9d0a22309f97e47de90de9ce78610552be9f2d88
-          ld_library_path:
-            - system
+            reference: ghcr.io/cnpg-extensions/pg-search:v0.26.6-202611101635-18-bookworm@sha256:c4b8908d4bc6c88fb92a8028686baddd391f5200e94e37d19a16121b60046da0
         - name: pg-session-jwt
           image:
             reference: ghcr.io/cnpg-extensions/pg-session-jwt:v0.5.0-202611101102-18-bookworm@sha256:41e4e6f37f7b9c8a193d828b07a97ce2c34f7a0667f385b78fe7721c67689bd8
