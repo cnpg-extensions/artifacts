@@ -79,7 +79,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/mimeo:1.5.1-202611100017-18-trixie@sha256:792661a4ff6f5f0075d7028d7add5db89304170ac22739d5e80f588da7028467
         - name: mobilitydb
           image:
-            reference: ghcr.io/cnpg-extensions/mobilitydb:1.3.1-202611100015-18-trixie@sha256:aa6dc4b3acb2d219564bfc52831dc0d3435ceeeedefc1f73b9e26f203c4ded62
+            reference: ghcr.io/cnpg-extensions/mobilitydb:1.3.1-202611101056-18-trixie@sha256:ebc841187cdc94e3e41bef0e1ad63e71ae1a79d107748701a9a388014b35f55b
           ld_library_path:
             - system
         - name: mysql-fdw
@@ -121,6 +121,12 @@ spec:
         - name: pg-dirtyread
           image:
             reference: ghcr.io/cnpg-extensions/pg-dirtyread:2.8-202611100015-18-trixie@sha256:ee4493654cb1a4951835cc1964ec683ab266a45b6a0019e7e26809ae3ef35744
+        - name: pg-durable
+          image:
+            reference: ghcr.io/cnpg-extensions/pg-durable:v0.2.7-202611101058-18-trixie@sha256:aced2c5be828af93aeebb0c843d8cce7e186a3424fbdc27b8635c850823c93c6
+        - name: pg-graphql
+          image:
+            reference: ghcr.io/cnpg-extensions/pg-graphql:v1.6.2-202611101055-18-trixie@sha256:d5c6ec63274b6a8848a7736db14a482ef304e274fcb39662a028a3dcf09d56d0
         - name: pg-gvm
           image:
             reference: ghcr.io/cnpg-extensions/pg-gvm:22.6.18-202611100017-18-trixie@sha256:dcb83f31e48c890b3b91016edf023aaba7136aa88fe3833973bc535dd752f0e3
@@ -132,6 +138,12 @@ spec:
         - name: pg-ivm
           image:
             reference: ghcr.io/cloudnative-pg/pg-ivm:1.17-202611091303-18-trixie@sha256:caeb05cc2c2b6d2f76f7bc4ba229284b401acb4d33ef513ff51e253ced984a0d
+        - name: pg-jsonschema
+          image:
+            reference: ghcr.io/cnpg-extensions/pg-jsonschema:v0.3.4-202611101058-18-trixie@sha256:44319edab13b14f245bd3841284172ab50a204be5561771a68c834703291e60f
+        - name: pg-parquet
+          image:
+            reference: ghcr.io/cnpg-extensions/pg-parquet:v0.5.1-202611101103-18-trixie@sha256:96d34c8eae89e8298f238452224287a8bf1cf4cfb2708244af91e598901718c1
         - name: pg-partman
           image:
             reference: ghcr.io/cnpg-extensions/pg-partman:5.5.0-202611100020-18-trixie@sha256:62e820998af3d3344ae0301de4199200dceb7d304ce040f1dc2e0d8d64b2138d
@@ -160,6 +172,14 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-rrule:0.3.0-202611100015-18-trixie@sha256:6047935b6129024422bdca10cbf6d79161c7785d6a4fd5ce23b2584cae8d80be
           ld_library_path:
             - system
+        - name: pg-search
+          image:
+            reference: ghcr.io/cnpg-extensions/pg-search:v0.25.6-202611101057-18-trixie@sha256:aaa02163f954cbf899c0d8dd6ccbc84eba2b7d463ad07970140628d9ddd11d49
+          ld_library_path:
+            - system
+        - name: pg-session-jwt
+          image:
+            reference: ghcr.io/cnpg-extensions/pg-session-jwt:v0.5.0-202611101102-18-trixie@sha256:f0ccb02357417a1e006d0509462780957bd6a341d6cc1acb3656e6e206ec20a6
         - name: pg-similarity
           image:
             reference: ghcr.io/cnpg-extensions/pg-similarity:1.0-202611100017-18-trixie@sha256:09843bf97a38fb2e47ced2f98e83e01d88806ba3518bffdc954d58758ba29012
@@ -196,6 +216,9 @@ spec:
         - name: pgfincore
           image:
             reference: ghcr.io/cnpg-extensions/pgfincore:1.4.0-202611100017-18-trixie@sha256:88d9b77a89ac40bb888a7ecae03bc12eeb9942e5f99fb7bfb6061b84f2487a86
+        - name: pglinter
+          image:
+            reference: ghcr.io/cnpg-extensions/pglinter:2.0.0-202611101104-18-trixie@sha256:1efdeceb9d780682ca738eb5209619fb0ec959d7d0b0701d83babac257fdd753
         - name: pglogical
           image:
             reference: ghcr.io/cnpg-extensions/pglogical:2.4.8-202611100019-18-trixie@sha256:712eb1fcf7cb1516f0b9d8930f83ab4a6c0e34b94e95ef6e44602f33212003de
@@ -282,6 +305,9 @@ spec:
               value: ${image_root}/share/gdal
             - name: PROJ_DATA
               value: ${image_root}/share/proj
+        - name: postgresql-anonymizer
+          image:
+            reference: ghcr.io/cnpg-extensions/postgresql-anonymizer:3.3.2-202611101103-18-trixie@sha256:335d901788b44d2589411fb16ab96ca1a1cdc634619a6119109e6d9a991b9c32
         - name: powa
           image:
             reference: ghcr.io/cnpg-extensions/powa:5.3.0-202611100021-18-trixie@sha256:c03f8d9664dfaf905444aa06e645db3fba5dc3d6b28d1887bc53f1f666c22d8d
