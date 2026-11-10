@@ -123,10 +123,10 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-dirtyread:2.8-202611100015-18-trixie@sha256:ee4493654cb1a4951835cc1964ec683ab266a45b6a0019e7e26809ae3ef35744
         - name: pg-durable
           image:
-            reference: ghcr.io/cnpg-extensions/pg-durable:v0.2.7-202611101058-18-trixie@sha256:aced2c5be828af93aeebb0c843d8cce7e186a3424fbdc27b8635c850823c93c6
+            reference: ghcr.io/cnpg-extensions/pg-durable:v0.2.9-202611101504-18-trixie@sha256:d493885c8c245ab07f3eef75645c7f32ddbd9b2a19b6b1cc4eb153788dc68e82
         - name: pg-graphql
           image:
-            reference: ghcr.io/cnpg-extensions/pg-graphql:v1.6.2-202611101055-18-trixie@sha256:d5c6ec63274b6a8848a7736db14a482ef304e274fcb39662a028a3dcf09d56d0
+            reference: ghcr.io/cnpg-extensions/pg-graphql:v1.6.3-202611101534-18-trixie@sha256:aa33440349b02877492431c8dddd279538aeec1c39a1660a64e647d2f4dfda53
         - name: pg-gvm
           image:
             reference: ghcr.io/cnpg-extensions/pg-gvm:22.6.18-202611100017-18-trixie@sha256:dcb83f31e48c890b3b91016edf023aaba7136aa88fe3833973bc535dd752f0e3

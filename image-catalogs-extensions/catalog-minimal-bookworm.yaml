@@ -123,10 +123,10 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-dirtyread:2.8-202611100015-18-bookworm@sha256:c1a8c09785e1233f99968d55a055c64e214e8f1eb1cf97f0e314d0fdb746efe0
         - name: pg-durable
           image:
-            reference: ghcr.io/cnpg-extensions/pg-durable:v0.2.7-202611101058-18-bookworm@sha256:543808bdc2d78521db69d1b486e0f1c25f347846bc27556123e5fb23509ca9d5
+            reference: ghcr.io/cnpg-extensions/pg-durable:v0.2.9-202611101504-18-bookworm@sha256:04f4f277fcf9715261b413760ce76634aa1c1c30d81003b0916e189a55fe59a9
         - name: pg-graphql
           image:
-            reference: ghcr.io/cnpg-extensions/pg-graphql:v1.6.2-202611101055-18-bookworm@sha256:15b03a00e5acf2aa1787b7e94c3dc3ea9026e52d403ea377f73034984e0d8f8c
+            reference: ghcr.io/cnpg-extensions/pg-graphql:v1.6.3-202611101534-18-bookworm@sha256:74591db6c943b3de82572bf49637c2afba43a2a78421a593213f7fdd898cc59b
         - name: pg-hint-plan
           image:
             reference: ghcr.io/cnpg-extensions/pg-hint-plan:1.8.1-202611100015-18-bookworm@sha256:054b23a0221a2493df986b5381c3a1fa49090584926d77a47fbad7c4d433b091
