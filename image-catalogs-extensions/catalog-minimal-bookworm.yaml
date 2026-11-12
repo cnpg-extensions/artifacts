@@ -34,7 +34,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/credcheck:6.0-202611100016-18-bookworm@sha256:8475169b92b004fd122fae897e59a6a884f59a154400e7d722bbddc799434731
         - name: db2fce
           image:
-            reference: ghcr.io/cnpg-extensions/db2fce:0.0.17-202611100015-18-bookworm@sha256:d5d470869db4bd060e53a787c9f031d0300f813be300b15e7b070d1b98168983
+            reference: ghcr.io/cnpg-extensions/db2fce:0.0.17-202611121823-18-bookworm@sha256:4bbd6001a347de5a31f1879f1f23ea5ad8993423af9da2cf5af9d5f2cd685081
         - name: debversion
           image:
             reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202611100017-18-bookworm@sha256:961cde1872e8fad91b2160aa9d3956e2a6b9ce61bfb8532b4ec60635cad9e06e

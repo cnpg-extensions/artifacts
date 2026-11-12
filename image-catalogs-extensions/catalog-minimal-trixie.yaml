@@ -34,7 +34,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/credcheck:6.0-202611100016-18-trixie@sha256:57d27a0e2e83e76f709e15f0ddeb952401cdff55c237affeaa4fbab6f5a46bdc
         - name: db2fce
           image:
-            reference: ghcr.io/cnpg-extensions/db2fce:0.0.17-202611100015-18-trixie@sha256:6ad9c98e9828804855faac73e10754935fa951d0bc417dc74b9df80083999729
+            reference: ghcr.io/cnpg-extensions/db2fce:0.0.17-202611121823-18-trixie@sha256:b06475c6928d26ff233e661e5a91961fba618aa354f4c72cde957ef7c8fda27f
         - name: debversion
           image:
             reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202611100017-18-trixie@sha256:caedc5e5fb500d6e4237988bc262b6925b3d64aff9dda15a5be5ace596bdf43b
