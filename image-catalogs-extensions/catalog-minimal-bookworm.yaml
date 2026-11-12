@@ -155,7 +155,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-qualstats:2.1.4-202611100018-18-bookworm@sha256:387eec41795f90e24365340b7e4c564ef3657953e52468f42fd25d0d14f3809f
         - name: pg-rage-terminator
           image:
-            reference: ghcr.io/cnpg-extensions/pg-rage-terminator:0.1.7-202611100014-18-bookworm@sha256:59323706ca914cfbeeaf8da19ad4aa4190892571c6b9310099976cd6e34ef37e
+            reference: ghcr.io/cnpg-extensions/pg-rage-terminator:0.1.7-202611121535-18-bookworm@sha256:ac34b76083fe835d6065d6983f9660dd7fa9980d8a30e18118841b3548e182fe
         - name: pg-repack
           image:
             reference: ghcr.io/cnpg-extensions/pg-repack:1.5.3-202611100015-18-bookworm@sha256:938796e95972ed52148b67aa20b38f836dc318e3d53b9e1701146bcbbdcfe752
@@ -290,7 +290,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pointcloud:1.2.5-202611100021-18-bookworm@sha256:5af64b02599f069a49f850ea89af4ebbaf630a1517a881d03b1bf281a329dbaa
         - name: postgis
           image:
-            reference: ghcr.io/cloudnative-pg/postgis-extension:3.7.0-202611121012-18-bookworm@sha256:332001665d16c329e759267c47974403c1f824c0da12f270e93f27e496f400d6
+            reference: ghcr.io/cloudnative-pg/postgis-extension:3.7.0-202611121134-18-bookworm@sha256:f5b9fbdbd54c3daa6e1190bb4da324cb22f60771a489a4a58a4921e2598b5c07
           ld_library_path:
             - system
           env:

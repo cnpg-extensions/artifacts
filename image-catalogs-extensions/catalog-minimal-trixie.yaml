@@ -160,7 +160,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-qualstats:2.1.4-202611100018-18-trixie@sha256:a40113463c06081037ce4375aae9959c53e4a0823736bc899b768bbb3a0ff4ae
         - name: pg-rage-terminator
           image:
-            reference: ghcr.io/cnpg-extensions/pg-rage-terminator:0.1.7-202611100014-18-trixie@sha256:ecda345a43551c4fc763c7149a384ed57eccb41d394f085b050dd6ecf68f67d1
+            reference: ghcr.io/cnpg-extensions/pg-rage-terminator:0.1.7-202611121535-18-trixie@sha256:7168c187f3fdd4f2be50044868bc7d984b3dd61b846d7031df6e858852584062
         - name: pg-repack
           image:
             reference: ghcr.io/cnpg-extensions/pg-repack:1.5.3-202611100015-18-trixie@sha256:a399ccc7637eaa5d4acc43c24549ce8e7513ab10076f1e2744cd540f8c474fbc
@@ -295,7 +295,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pointcloud:1.2.5-202611100021-18-trixie@sha256:215f216a8c8d8dc606f4331027ba51a3e1801d8f4af03bd9c217be75dcc91859
         - name: postgis
           image:
-            reference: ghcr.io/cloudnative-pg/postgis-extension:3.7.0-202611121012-18-trixie@sha256:4e071a3c27cdeb870c20f9393dc8a01d7849febed5aeca2bb1c827238cfa0b19
+            reference: ghcr.io/cloudnative-pg/postgis-extension:3.7.0-202611121134-18-trixie@sha256:b4d87011b053986872f5c3259d29870e75a8984c547490b9751768864af25229
           ld_library_path:
             - system
           env:
