@@ -28,7 +28,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/age:1.8.0-202611100016-18-trixie@sha256:101e675421bc769271e9214bdc53f24b4a455e909fc68373cee7fd1a7a00e4db
         - name: asn1oid
           image:
-            reference: ghcr.io/cnpg-extensions/asn1oid:1.6-202611100016-18-trixie@sha256:90f5dbebfd2148f02572c3f80c01ee14c4abb9300a4e51e46b907d2560322fa8
+            reference: ghcr.io/cnpg-extensions/asn1oid:1.6-202611121655-18-trixie@sha256:aaa8a3bb517abfaf524801d3b6f4230b26d08554a4fa21ff2d314001c88927d0
         - name: credcheck
           image:
             reference: ghcr.io/cnpg-extensions/credcheck:6.0-202611100016-18-trixie@sha256:57d27a0e2e83e76f709e15f0ddeb952401cdff55c237affeaa4fbab6f5a46bdc

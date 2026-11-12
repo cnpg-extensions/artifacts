@@ -28,7 +28,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/age:1.8.0-202611100016-18-bookworm@sha256:61f41487240c5ede72739eaf321935f4f36f1b93f92f1fe2a0e24a9d34eaab57
         - name: asn1oid
           image:
-            reference: ghcr.io/cnpg-extensions/asn1oid:1.6-202611100016-18-bookworm@sha256:1636025c5c9b864404ff5a3fcf77fc7d0c448ab7afa62f6c2b05da1a414c4d32
+            reference: ghcr.io/cnpg-extensions/asn1oid:1.6-202611121655-18-bookworm@sha256:05e581cf95d861f65ee8e74c82e4883ff8d0025e1ab17dd699a91602e313952a
         - name: credcheck
           image:
             reference: ghcr.io/cnpg-extensions/credcheck:6.0-202611100016-18-bookworm@sha256:8475169b92b004fd122fae897e59a6a884f59a154400e7d722bbddc799434731
