@@ -37,10 +37,10 @@ spec:
             reference: ghcr.io/cnpg-extensions/db2fce:0.0.17-202611121823-18-trixie@sha256:b06475c6928d26ff233e661e5a91961fba618aa354f4c72cde957ef7c8fda27f
         - name: debversion
           image:
-            reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202611100017-18-trixie@sha256:caedc5e5fb500d6e4237988bc262b6925b3d64aff9dda15a5be5ace596bdf43b
+            reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202611122323-18-trixie@sha256:aa81b22c8efa8f3471aac4965dc89c6325959becd70213b4e80126cd3c5f577c
         - name: decoderbufs
           image:
-            reference: ghcr.io/cnpg-extensions/decoderbufs:3.7.0-202611100015-18-trixie@sha256:35e82074266faad46b7a56630a447ea09f7273a6cb3ba352ec2e26aab421f8c8
+            reference: ghcr.io/cnpg-extensions/decoderbufs:3.7.0-202611122323-18-trixie@sha256:6826a4eb3e15e3481d0f59b267e432adee9d48e6c39e3a45b88cc7152116eb9c
           ld_library_path:
             - system
         - name: extra-window-functions

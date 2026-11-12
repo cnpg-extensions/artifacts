@@ -37,10 +37,10 @@ spec:
             reference: ghcr.io/cnpg-extensions/db2fce:0.0.17-202611121823-18-bookworm@sha256:4bbd6001a347de5a31f1879f1f23ea5ad8993423af9da2cf5af9d5f2cd685081
         - name: debversion
           image:
-            reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202611100017-18-bookworm@sha256:961cde1872e8fad91b2160aa9d3956e2a6b9ce61bfb8532b4ec60635cad9e06e
+            reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202611122323-18-bookworm@sha256:9c4d60a00b82e5fcfc6456cf3987df68473ad87905790389bb792ffed85144d4
         - name: decoderbufs
           image:
-            reference: ghcr.io/cnpg-extensions/decoderbufs:3.7.0-202611100015-18-bookworm@sha256:4424e82b38f03b0024c516710726f3739676373d5cc731f636beb9ab3750e16f
+            reference: ghcr.io/cnpg-extensions/decoderbufs:3.7.0-202611122323-18-bookworm@sha256:ae9447d10016969af67996c1242b7499d9dbb9a0a3ce804f4681496d8e88db95
           ld_library_path:
             - system
         - name: extra-window-functions
