@@ -180,7 +180,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-session-jwt:v0.5.0-202611101102-18-trixie@sha256:f0ccb02357417a1e006d0509462780957bd6a341d6cc1acb3656e6e206ec20a6
         - name: pg-similarity
           image:
-            reference: ghcr.io/cnpg-extensions/pg-similarity:1.0-202611100017-18-trixie@sha256:09843bf97a38fb2e47ced2f98e83e01d88806ba3518bffdc954d58758ba29012
+            reference: ghcr.io/cnpg-extensions/pg-similarity:1.0-202611131700-18-trixie@sha256:047f0c6dd84fcd15cfa2c97dba1c7cfb7863277b3953c02235d1e8ed28984a31
         - name: pg-squeeze
           image:
             reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.4-202611130712-18-trixie@sha256:4fe3481f8839960c0a72f4fb291d04d520efa2eb07166973a1ab8ce3debb10f1
@@ -233,7 +233,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pgnodemx:2.0.1-202611130702-18-trixie@sha256:94c74a7281563dcdb0b623a3cb303e619dafa05ca804b1407b9519b77a1f7d09
         - name: pgpcre
           image:
-            reference: ghcr.io/cnpg-extensions/pgpcre:0.20190509-202611100019-18-trixie@sha256:e2653cc593bdc3704b72391673c41df0f8888a3ccc9ca39bfa24c6073b9fb466
+            reference: ghcr.io/cnpg-extensions/pgpcre:0.20190509-202611131648-18-trixie@sha256:182936fbae0d6d1f325fcb091bb59fd1af8c32a104d33377a32fc79394c65088
         - name: pgq
           image:
             reference: ghcr.io/cnpg-extensions/pgq:3.5.1-202611130713-18-trixie@sha256:d37b0334b7af9f1b74d419199d3c757ecc95fddb550abd4b02ed9be2388826ed
