@@ -25,7 +25,7 @@ spec:
       extensions:
         - name: age
           image:
-            reference: ghcr.io/cnpg-extensions/age:1.8.0-202611100016-18-trixie@sha256:101e675421bc769271e9214bdc53f24b4a455e909fc68373cee7fd1a7a00e4db
+            reference: ghcr.io/cnpg-extensions/age:1.8.0-202611130356-18-trixie@sha256:41588256f434bd5c3e4837c42b9da9c4d95fb935b24f0e04dbe2036b5206a71d
         - name: asn1oid
           image:
             reference: ghcr.io/cnpg-extensions/asn1oid:1.6-202611121655-18-trixie@sha256:aaa8a3bb517abfaf524801d3b6f4230b26d08554a4fa21ff2d314001c88927d0

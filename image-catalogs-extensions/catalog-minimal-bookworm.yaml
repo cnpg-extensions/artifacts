@@ -25,7 +25,7 @@ spec:
       extensions:
         - name: age
           image:
-            reference: ghcr.io/cnpg-extensions/age:1.8.0-202611100016-18-bookworm@sha256:61f41487240c5ede72739eaf321935f4f36f1b93f92f1fe2a0e24a9d34eaab57
+            reference: ghcr.io/cnpg-extensions/age:1.8.0-202611130356-18-bookworm@sha256:e0f3fdb1abb647f79bf67c9451132193e3a1805b89baa71417cac131d3fd1afa
         - name: asn1oid
           image:
             reference: ghcr.io/cnpg-extensions/asn1oid:1.6-202611121655-18-bookworm@sha256:05e581cf95d861f65ee8e74c82e4883ff8d0025e1ab17dd699a91602e313952a
