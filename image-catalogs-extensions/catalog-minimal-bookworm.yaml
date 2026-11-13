@@ -330,7 +330,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/semver:0.42.0-202611130709-18-bookworm@sha256:761b66f393335ddf8e8415c10db223c4e9eddcfe2e83bcdeec34d881ecc5b007
         - name: set-user
           image:
-            reference: ghcr.io/cnpg-extensions/set-user:4.3.0-202611100020-18-bookworm@sha256:187827a9bc4aad12a8826d19159692e0fafac7ccc32cbecc6bb37d9d75965145
+            reference: ghcr.io/cnpg-extensions/set-user:4.3.0-202611130716-18-bookworm@sha256:62c20cffbe0542276bbe67959434e746c20ac2410af5f3055eca53310faa6a2f
         - name: show-plans
           image:
             reference: ghcr.io/cnpg-extensions/show-plans:2.1.8-202611130710-18-bookworm@sha256:d066c2a17ebbde4f972b3dff4cdfc2c2c0c5eda834639e366c7a178dc1774341
