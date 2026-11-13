@@ -356,7 +356,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/toastinfo:1.7-202611100020-18-bookworm@sha256:f033d9c0f356b9760eaa39adec2eb395b0c3df1d70024d6ca4e4e0c1f027eaf9
         - name: unit
           image:
-            reference: ghcr.io/cnpg-extensions/unit:7.10-202611100021-18-bookworm@sha256:0c5e38e44f0cf03a8603eb686238be3a8234078ae36da920ae993dc1e76542ff
+            reference: ghcr.io/cnpg-extensions/unit:7.10-202611130744-18-bookworm@sha256:f9f36d6f7853176c406c05725a3af19c986f07e8ac923e7cf29610c35e434d6c
         - name: wal2json
           image:
             reference: ghcr.io/cloudnative-pg/wal2json:2.7-202611122353-18-bookworm@sha256:c68120ddaa2b8a5c98cdc7d4446cb5ae4b1d68e498d1f2d24afff852fdd1ae0e

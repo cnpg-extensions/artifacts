@@ -366,7 +366,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/toastinfo:1.7-202611100020-18-trixie@sha256:c2269fc54e5f86c3f66f5a398e9f9403bb1ac413fe0b2d7b0ddacaaf77b15c6b
         - name: unit
           image:
-            reference: ghcr.io/cnpg-extensions/unit:7.10-202611100021-18-trixie@sha256:a053a242690a1c014ffe34b005d6ee568f264afba7d2c4906d0a640de3365b0f
+            reference: ghcr.io/cnpg-extensions/unit:7.10-202611130744-18-trixie@sha256:3e3953fc1645aaf5b593c29270856ffc4d2cb81689befaf5468d7d15edc3e3a1
         - name: wal2json
           image:
             reference: ghcr.io/cloudnative-pg/wal2json:2.7-202611122353-18-trixie@sha256:5808158959653ef5c1ebcc0828dbe814dd5fada976442372a2eed27463967fd0
