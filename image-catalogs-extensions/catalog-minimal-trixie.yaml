@@ -123,7 +123,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-dirtyread:2.8-202611130420-18-trixie@sha256:e4edb88afbce8ad22a66ff63d515b5537f679e591db4e994e4f9c07c1cc7e066
         - name: pg-duckdb
           image:
-            reference: ghcr.io/cnpg-extensions/pg-duckdb:1.2.0-202611160102-18-trixie@sha256:0464400d52ffe37bbd3654d0b5b0d3179dfd262e5b90b770258b3715b3dfd655
+            reference: ghcr.io/cnpg-extensions/pg-duckdb:1.2.0-202611160159-18-trixie@sha256:9045851b54804b931a16316e1540aee1adceda7045103b81d3cc052aa5cb3db3
           ld_library_path:
             - system
         - name: pg-durable

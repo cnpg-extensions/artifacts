@@ -121,6 +121,11 @@ spec:
         - name: pg-dirtyread
           image:
             reference: ghcr.io/cnpg-extensions/pg-dirtyread:2.8-202611130420-18-bookworm@sha256:b9dcd4bfd1e92fe8786bb347396a0705355ffe5512f7761cf86aac6337f0c0d4
+        - name: pg-duckdb
+          image:
+            reference: ghcr.io/cnpg-extensions/pg-duckdb:1.2.0-202611160159-18-bookworm@sha256:f14600c0390dbe15952ed2e8636f81a5823b9e5c47c81a37396db53b6409d66c
+          ld_library_path:
+            - system
         - name: pg-durable
           image:
             reference: ghcr.io/cnpg-extensions/pg-durable:0.2.9-202611160102-18-bookworm@sha256:792ebb90bb175f409e9d52fd213d9d0802055d7a8ae75c456ddbb83e92998812
