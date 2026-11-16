@@ -82,11 +82,6 @@ spec:
             reference: ghcr.io/cnpg-extensions/mobilitydb:1.3.2-202611141946-18-trixie@sha256:d4ca5abec75cccdcb2aad4e72af1147a42af488ca365b975bee7c1e4e1a8057d
           ld_library_path:
             - system
-        - name: mysql-fdw
-          image:
-            reference: ghcr.io/cnpg-extensions/mysql-fdw:2.9.3-202611131653-18-trixie@sha256:1cc4b3ec1ee1eb71ba739bd450e075e259674195cbccd29ca43c3db145314fe5
-          ld_library_path:
-            - system
         - name: numeral
           image:
             reference: ghcr.io/cnpg-extensions/numeral:1.3-202611130702-18-trixie@sha256:d1fedbcfa8e59890dc7b568ece5398aa44c5c783f39ebfd805af0820c5d7f84d
@@ -198,6 +193,9 @@ spec:
         - name: pg-stat-plans
           image:
             reference: ghcr.io/cnpg-extensions/pg-stat-plans:2.1.1-202611130657-18-trixie@sha256:ccbae7656716e0c58d24f71fb2be1491d001ac453c9c51084ad10c1cb74746e4
+        - name: pg-stat-tcpinfo
+          image:
+            reference: ghcr.io/cnpg-extensions/pg-stat-tcpinfo:1.1-202611160724-18-trixie@sha256:62554d4feec56ba1054964d258e1b7ae34486393d4244f84e23b65a24f15006f
         - name: pg-statviz
           image:
             reference: ghcr.io/cnpg-extensions/pg-statviz:1.2.1-202611130714-18-trixie@sha256:3386e5129f619e782e4fe3d8443a6b81989734b704f2fe15ad3845ecca7e555a
@@ -216,6 +214,9 @@ spec:
         - name: pgextwlist
           image:
             reference: ghcr.io/cnpg-extensions/pgextwlist:1.20-202611130705-18-trixie@sha256:1ab13155a6e8a70be9990438a9465d27e420d08f3c9cd9c1a190826d1ec4c96e
+        - name: pgfaceting
+          image:
+            reference: ghcr.io/cnpg-extensions/pgfaceting:0.2.0-202611160725-18-trixie@sha256:7c4725f0d8e41d01b671c333a151f587ec333053bf78232c7a6d37a9dfbe2bd0
         - name: pgfincore
           image:
             reference: ghcr.io/cnpg-extensions/pgfincore:1.4.0-202611130709-18-trixie@sha256:4576c79a15baccdde378d1e37a47e71a50597e378658214c3da938cdd0afc374
