@@ -118,7 +118,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-dirtyread:2.8-202611130420-18-trixie@sha256:e4edb88afbce8ad22a66ff63d515b5537f679e591db4e994e4f9c07c1cc7e066
         - name: pg-duckdb
           image:
-            reference: ghcr.io/cnpg-extensions/pg-duckdb:1.2.0-202611160159-18-trixie@sha256:9045851b54804b931a16316e1540aee1adceda7045103b81d3cc052aa5cb3db3
+            reference: ghcr.io/cnpg-extensions/pg-duckdb:1.2.0-202611161743-18-trixie@sha256:5ff13efca21cc0276c9f030ea1453dca6feda83f2be1b4fdb3df5dbf18846dba
           ld_library_path:
             - system
         - name: pg-durable
@@ -346,7 +346,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/rum:1.3.15-202611130708-18-trixie@sha256:824136a3d05767761fd0d53db1bce30921628b10d65f69b1850a1e097476abe4
         - name: semver
           image:
-            reference: ghcr.io/cnpg-extensions/semver:0.42.0-202611130709-18-trixie@sha256:a709662412ceaf5ba7d0c9a1c166f92784868ee35e31c47711df4173d5cc4dd8
+            reference: ghcr.io/cnpg-extensions/semver:0.43.0-202611161804-18-trixie@sha256:b9e9df250bc7dd4a01a84fc61fa14d59cb365ee3691ae1e17460807dc29a585e
         - name: set-user
           image:
             reference: ghcr.io/cnpg-extensions/set-user:4.3.0-202611130716-18-trixie@sha256:85ece58f25af96230d3b66d25937a5b61b5a237baa37b2706b2893de0c8ac51f

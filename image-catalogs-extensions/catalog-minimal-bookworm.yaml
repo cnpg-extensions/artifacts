@@ -118,7 +118,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-dirtyread:2.8-202611130420-18-bookworm@sha256:b9dcd4bfd1e92fe8786bb347396a0705355ffe5512f7761cf86aac6337f0c0d4
         - name: pg-duckdb
           image:
-            reference: ghcr.io/cnpg-extensions/pg-duckdb:1.2.0-202611160159-18-bookworm@sha256:f14600c0390dbe15952ed2e8636f81a5823b9e5c47c81a37396db53b6409d66c
+            reference: ghcr.io/cnpg-extensions/pg-duckdb:1.2.0-202611161743-18-bookworm@sha256:92e207dad1de9ddcd94c9129c9dd847b250f5d5d2bc2818a9ea84725c8581d98
           ld_library_path:
             - system
         - name: pg-durable
@@ -336,7 +336,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/rum:1.3.15-202611130708-18-bookworm@sha256:7ff48e264f41782bf09599cfde10137c298ae79a55c6b655845eda825a203295
         - name: semver
           image:
-            reference: ghcr.io/cnpg-extensions/semver:0.42.0-202611130709-18-bookworm@sha256:761b66f393335ddf8e8415c10db223c4e9eddcfe2e83bcdeec34d881ecc5b007
+            reference: ghcr.io/cnpg-extensions/semver:0.43.0-202611161804-18-bookworm@sha256:1bad5c7331008f147aae5c02d333d797fbba4fe4e58daaaaff55edb6bc5f00c4
         - name: set-user
           image:
             reference: ghcr.io/cnpg-extensions/set-user:4.3.0-202611130716-18-bookworm@sha256:62c20cffbe0542276bbe67959434e746c20ac2410af5f3055eca53310faa6a2f
