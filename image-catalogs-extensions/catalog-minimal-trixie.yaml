@@ -43,6 +43,11 @@ spec:
             reference: ghcr.io/cnpg-extensions/decoderbufs:3.7.0-202611122323-18-trixie@sha256:6826a4eb3e15e3481d0f59b267e432adee9d48e6c39e3a45b88cc7152116eb9c
           ld_library_path:
             - system
+        - name: documentdb
+          image:
+            reference: ghcr.io/cnpg-extensions/documentdb:1.2-202611222314-18-trixie@sha256:4021b494d500e5e39763fd870b80666b1e0fecb547a2903ca749facb37c67c6f
+          ld_library_path:
+            - lib
         - name: extra-window-functions
           image:
             reference: ghcr.io/cnpg-extensions/extra-window-functions:2.0-202611130425-18-trixie@sha256:a02c7741e9245a2668903663801ed1c0ca14d7683ec0a30d66c4182d6ded6101
