@@ -85,16 +85,6 @@ spec:
         - name: numeral
           image:
             reference: ghcr.io/cnpg-extensions/numeral:1.3-202611130702-18-bookworm@sha256:d84e4b46858b56592b98cb53fb19415c1887c915d3219a67c6979a4688ac5c5e
-        - name: ogr-fdw
-          image:
-            reference: ghcr.io/cnpg-extensions/ogr-fdw:1.1.9-202611130657-18-bookworm@sha256:0427040d3f3d875a39af2bcff10a4163d5eb947aa454b19c103f4cd6dea564ee
-          ld_library_path:
-            - system
-          env:
-            - name: GDAL_DATA
-              value: ${image_root}/share/gdal
-            - name: PROJ_DATA
-              value: ${image_root}/share/proj
         - name: orafce
           image:
             reference: ghcr.io/cnpg-extensions/orafce:4.17.1-202611130700-18-bookworm@sha256:af0e3539fdb7e496d7d00e9f63f74575c39242747aac0427a4145e1bb5bcd996
