@@ -183,7 +183,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-similarity:1.0-202611131700-18-trixie@sha256:047f0c6dd84fcd15cfa2c97dba1c7cfb7863277b3953c02235d1e8ed28984a31
         - name: pg-squeeze
           image:
-            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.4-202611130712-18-trixie@sha256:4fe3481f8839960c0a72f4fb291d04d520efa2eb07166973a1ab8ce3debb10f1
+            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.4-202611220730-18-trixie@sha256:8bfd6f83f72707bb8eac2be98cb94bef0830423a4fadb9af63a10b1d58536305
         - name: pg-stat-kcache
           image:
             reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202611130705-18-trixie@sha256:fed27187e914c5eff0ec3709e805d1fc5657952151ab36d02f53fc9d33e163f7
@@ -239,7 +239,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pgmp:1.0.6-202611131650-18-trixie@sha256:16ef1f8547f4629d740e33af49a50c7679f0b0a652c789ab336b308b4c21d0a1
         - name: pgnodemx
           image:
-            reference: ghcr.io/cnpg-extensions/pgnodemx:2.0.1-202611130702-18-trixie@sha256:94c74a7281563dcdb0b623a3cb303e619dafa05ca804b1407b9519b77a1f7d09
+            reference: ghcr.io/cnpg-extensions/pgnodemx:2.0.1-202611220730-18-trixie@sha256:a265c1f0107e6117ee12263515a27c6fe8e42cf92bfcd7c825bca6e67db5e947
         - name: pgpcre
           image:
             reference: ghcr.io/cnpg-extensions/pgpcre:0.20190509-202611131648-18-trixie@sha256:182936fbae0d6d1f325fcb091bb59fd1af8c32a104d33377a32fc79394c65088
@@ -301,7 +301,7 @@ spec:
               value: ${image_root}/share/tcl8.6
         - name: pointcloud
           image:
-            reference: ghcr.io/cnpg-extensions/pointcloud:1.2.5-202611130711-18-trixie@sha256:8d13112404a1f16609beb0b78db84f7166d6e5311ebac81fda3c01714a1305fe
+            reference: ghcr.io/cnpg-extensions/pointcloud:1.2.5-202611220730-18-trixie@sha256:4ba62cd791c11346efcb51638bdc279709c5f0559b6325725156897854a8cd70
         - name: postgis
           image:
             reference: ghcr.io/cloudnative-pg/postgis-extension:3.7.0-202611201143-18-trixie@sha256:ea0a56f3182b9c4e9d4931657722c32473c0874cdf324b37b36e5f7be5a20cba

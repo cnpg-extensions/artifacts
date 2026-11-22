@@ -178,7 +178,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-similarity:1.0-202611131700-18-bookworm@sha256:bc3cf5b9025a2035a713cab75204de1f4c9897f997c54f66680579342bfd7701
         - name: pg-squeeze
           image:
-            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.4-202611130712-18-bookworm@sha256:c0a13bb47844e5e1df33e3cc35038f84e4a262fa050594ce890727fce2efbe90
+            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.4-202611220730-18-bookworm@sha256:1483d392cd9ca7705834e49c4c49ee032e89ea24f558a01bc0040634d729a8d7
         - name: pg-stat-kcache
           image:
             reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202611130705-18-bookworm@sha256:fbd113c36f5d98b345f245c4c16ac9b718b5d30e3f99e33eeb1c770db06c0da4
@@ -234,7 +234,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pgmp:1.0.6-202611131650-18-bookworm@sha256:9fe19a07d0172e4b131988e293bc944dccff48fcd216e23e6360ae7972788cfa
         - name: pgnodemx
           image:
-            reference: ghcr.io/cnpg-extensions/pgnodemx:2.0.1-202611130702-18-bookworm@sha256:fd40ddc99aecc52e945cace282c370f04e003181105f210afef86f12c8b8c0e8
+            reference: ghcr.io/cnpg-extensions/pgnodemx:2.0.1-202611220730-18-bookworm@sha256:35df479263f18871af1c97cfdd5c7f1552a76a6ab35e10499eabb0a225a512d4
         - name: pgpcre
           image:
             reference: ghcr.io/cnpg-extensions/pgpcre:0.20190509-202611131648-18-bookworm@sha256:1001117179eb1f93d6eb044f4b7e961f59ca8daee989cc18493ae4c1da58d5ef
@@ -296,7 +296,7 @@ spec:
               value: ${image_root}/share/tcl8.6
         - name: pointcloud
           image:
-            reference: ghcr.io/cnpg-extensions/pointcloud:1.2.5-202611130711-18-bookworm@sha256:6156270dd5a1c5f2d3529fd0ce796c6a08f31f0ffd08b12cf458c40f265f482a
+            reference: ghcr.io/cnpg-extensions/pointcloud:1.2.5-202611220730-18-bookworm@sha256:eeca1e9b7ab90b2b14e2f2b2b4111a3382ae2f05ed5489478b8debdf76ffae98
         - name: postgis
           image:
             reference: ghcr.io/cloudnative-pg/postgis-extension:3.7.0-202611201143-18-bookworm@sha256:6a658a5219c2e77066f6bba33d9507f54e273eb9d21eb635893e1a72723e2ded
