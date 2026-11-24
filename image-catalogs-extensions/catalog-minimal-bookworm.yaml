@@ -83,7 +83,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/numeral:1.3-202611241824-18-bookworm@sha256:067f3cef811058f249f676f8916ec2cc7f140e30e108c1d709cff0559903be72
         - name: orafce
           image:
-            reference: ghcr.io/cnpg-extensions/orafce:4.17.1-202611241824-18-bookworm@sha256:d778397d8ec5afb89355ec025da46b1d0b44e03b003dcb9de1b23eaabb916928
+            reference: ghcr.io/cnpg-extensions/orafce:4.17.2-202611242058-18-bookworm@sha256:78974927b669642dbf20025dcfe58ab9f5a2703ba8e66e979cdaaa04e36cb4e6
         - name: periods
           image:
             reference: ghcr.io/cnpg-extensions/periods:1.2.3-202611100018-18-bookworm@sha256:61c0041fccabb094a5120d91255e60c8ea3a1e012bbd4992c8fedf7b1ab31c2c
@@ -127,7 +127,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-parquet:0.6.1-202611241556-18-bookworm@sha256:86c88672243a7f5e24f1ea1f14b3c816edf688537bf943471a6b16b92eb6ba82
         - name: pg-partman
           image:
-            reference: ghcr.io/cnpg-extensions/pg-partman:5.5.0-202611241601-18-bookworm@sha256:30c3521131cdbe519b88d5aece04417a5e58d8beb4de8901d0ff1f55c6dff687
+            reference: ghcr.io/cnpg-extensions/pg-partman:5.5.1-202611242059-18-bookworm@sha256:b015e4bed5788fc9792ae5d730fb7a84d0ccf83f8e77d7f3851544fb07717c41
         - name: pg-permissions
           image:
             reference: ghcr.io/cnpg-extensions/pg-permissions:1.4.1-202611241624-18-bookworm@sha256:5b2ef4daefadea596a8e484498d53c532c777b6dfccfd251fd5a7ae04909ef12
@@ -184,7 +184,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-statviz:1.2.1-202611241609-18-bookworm@sha256:8e2acf0ffef56fb0452d7df852e832254f4a65b1e51832669b2155a7fb6dbc44
         - name: pg-textsearch
           image:
-            reference: ghcr.io/cnpg-extensions/pg-textsearch:1.6.0-202611241813-18-bookworm@sha256:4787352bbc583fa87a5a62ed6aebd0d3f948a4965dcf95a7557766ff16e40ebc
+            reference: ghcr.io/cnpg-extensions/pg-textsearch:1.6.0-202611242041-18-bookworm@sha256:b54502a4edf459951cdafdc859a5a22224c98e203624e2ffbfa25ee5366a46db
         - name: pg-track-settings
           image:
             reference: ghcr.io/cnpg-extensions/pg-track-settings:2.1.2-202611241602-18-bookworm@sha256:ecdb55c02b688672acad72d15b3acd4ceca747bae7a394e7af4693898de3a317
@@ -202,7 +202,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pgextwlist:1.20-202611241824-18-bookworm@sha256:465c8e834aeba3eb8608a8782581e1f546acb8107a7e7a923c61b30d1109b010
         - name: pgfaceting
           image:
-            reference: ghcr.io/cnpg-extensions/pgfaceting:0.2.0-202611160725-18-bookworm@sha256:d06638b5deb2c8f0695876b0ffffc2c6566f484f42e49465d04f5277f17e6f3a
+            reference: ghcr.io/cnpg-extensions/pgfaceting:0.2.0-202611242041-18-bookworm@sha256:2f3728e03c916cd466f834053f0915f4827ab51f72295367b006558e7c0a2480
         - name: pgfincore
           image:
             reference: ghcr.io/cnpg-extensions/pgfincore:1.4.0-202611241824-18-bookworm@sha256:89f0e168b967e5db07bf2bec8b86271c048cd81996d922120db3b8da1985d033
@@ -318,7 +318,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/rational:0.0.3-202611241617-18-bookworm@sha256:d63834eb3c61fb7c4cd35a9634169ae77a11e20906d6af9bea9c4c64c95212b5
         - name: roaringbitmap
           image:
-            reference: ghcr.io/cnpg-extensions/roaringbitmap:1.2.0-202611241615-18-bookworm@sha256:5e041d593bb224f46f6f6e7848daf36c2011e239ddafeb27d59de8aabb17d84f
+            reference: ghcr.io/cnpg-extensions/roaringbitmap:1.3.0-202611242101-18-bookworm@sha256:08596c55d2f1151550326103c6f810dec55571712ca69b7e4b23f7469d671eb2
         - name: rum
           image:
             reference: ghcr.io/cnpg-extensions/rum:1.3.15-202611130708-18-bookworm@sha256:7ff48e264f41782bf09599cfde10137c298ae79a55c6b655845eda825a203295
@@ -402,7 +402,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/numeral:1.3-202611241824-19-bookworm@sha256:3eb26dc1628c7f8209861272ee1f7be31067425634ed709505c576151913bc97
         - name: orafce
           image:
-            reference: ghcr.io/cnpg-extensions/orafce:4.17.1-202611241824-19-bookworm@sha256:1d56b7e5499c5a213af43ed3c158befeb8684fd39d9c485f2f1db50f9801eb10
+            reference: ghcr.io/cnpg-extensions/orafce:4.17.1-202611242058-19-bookworm@sha256:51fb2c2149bda8f4beb83b79bc2573c4cd02f48a68172f99ac267251dd007f4d
         - name: pg-background
           image:
             reference: ghcr.io/cnpg-extensions/pg-background:2.0.3-202611241621-19-bookworm@sha256:e5cdf57523f198309b412bf10f69042f7d811e6b1810f2647b8f07e04416d2c7
@@ -434,7 +434,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-parquet:0.6.1-202611241556-19-bookworm@sha256:c6e3b6d846fa6b0c5ada07e9a30bd25e29ab8eb1d52c494d03324d4b1c0692e4
         - name: pg-partman
           image:
-            reference: ghcr.io/cnpg-extensions/pg-partman:5.5.0-202611241601-19-bookworm@sha256:43a4c73a96208fd75f4ff01ff1ba2ec9ab680049fa84b35540083915de410787
+            reference: ghcr.io/cnpg-extensions/pg-partman:5.5.0-202611242059-19-bookworm@sha256:b8958abdaf9403a2bd5bdc60c0e2b58dacbc4174662b1231f61aa544f74ae652
         - name: pg-permissions
           image:
             reference: ghcr.io/cnpg-extensions/pg-permissions:1.4.1-202611241624-19-bookworm@sha256:fdf17c796705bbaee24cbb1ebe8b59a4510d834d47d0a48467bfc50bd91994ee
@@ -478,6 +478,9 @@ spec:
         - name: pg-statviz
           image:
             reference: ghcr.io/cnpg-extensions/pg-statviz:1.2.1-202611241609-19-bookworm@sha256:9d927df70d5a9f31cfd4c3a1108526986642802fa7e8373f3de29c359ad5101e
+        - name: pg-textsearch
+          image:
+            reference: ghcr.io/cnpg-extensions/pg-textsearch:1.6.0-202611242041-19-bookworm@sha256:1816f7be82acab1ded1f0441e5fc168442ffe0cb6e16244012d4c9ce7d309639
         - name: pg-track-settings
           image:
             reference: ghcr.io/cnpg-extensions/pg-track-settings:2.1.2-202611241602-19-bookworm@sha256:0b5123013648efc447d724778041786de44ca5b82c66ddf80e123475b1749bc2
@@ -493,6 +496,9 @@ spec:
         - name: pgextwlist
           image:
             reference: ghcr.io/cnpg-extensions/pgextwlist:1.20-202611241824-19-bookworm@sha256:0b93ae21dc7b23117c7a7a50098280b37401befd9e613b1f8900da4c58d7d9da
+        - name: pgfaceting
+          image:
+            reference: ghcr.io/cnpg-extensions/pgfaceting:0.2.0-202611242041-19-bookworm@sha256:e58ee15b9b0222bac1f58740ea23a07130f38b8802d804c0cf5c0b7bcca13a93
         - name: pgfincore
           image:
             reference: ghcr.io/cnpg-extensions/pgfincore:1.4.0-202611241824-19-bookworm@sha256:2bd52c1d964d57a2eb0355272a5c4cf51682bf821e09105cc983ad8295597eb1
@@ -574,7 +580,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/rational:0.0.3-202611241617-19-bookworm@sha256:b90e18abf0c8bbb7a4b2e74be34341f8823ec1a337b24f5c8404c9e0e829bf53
         - name: roaringbitmap
           image:
-            reference: ghcr.io/cnpg-extensions/roaringbitmap:1.2.0-202611241615-19-bookworm@sha256:9ac834e72ecfcbdff209034244a83efb693fdcaf3810ae5ab7e023a5d7e764e0
+            reference: ghcr.io/cnpg-extensions/roaringbitmap:1.3.0-202611242101-19-bookworm@sha256:3ded4ff4d8557e16da835e3b03851d26d03077d33257ff3075c85444214ec9b7
         - name: semver
           image:
             reference: ghcr.io/cnpg-extensions/semver:0.43.0-202611241557-19-bookworm@sha256:b9fae54931ad4990df0c9645ab27c97855bb3d676d677849c3f90320848d2e10
