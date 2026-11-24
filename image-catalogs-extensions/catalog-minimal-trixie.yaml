@@ -165,7 +165,9 @@ spec:
             - system
         - name: pg-search
           image:
-            reference: ghcr.io/cnpg-extensions/pg-search:0.26.8-202611180516-18-trixie@sha256:30892123e742d9d267bb0b87997c6dd51ff26a002ae6e2b2866d763755c04286
+            reference: ghcr.io/cnpg-extensions/pg-search:0.27.0-202611240526-18-trixie@sha256:2c9eb2df6c02f36ac1a0f718e23364a293cae59751533ff30949f9ac168deb91
+          ld_library_path:
+            - system
         - name: pg-session-jwt
           image:
             reference: ghcr.io/cnpg-extensions/pg-session-jwt:0.5.0-202611160102-18-trixie@sha256:6cc79fc6087f142106e314fef0cf00dda63a292f4c043da35ad7b6453e415dde
