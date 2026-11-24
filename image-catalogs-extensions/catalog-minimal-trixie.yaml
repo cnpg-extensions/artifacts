@@ -109,7 +109,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-dirtyread:2.8-202611130420-18-trixie@sha256:e4edb88afbce8ad22a66ff63d515b5537f679e591db4e994e4f9c07c1cc7e066
         - name: pg-duckdb
           image:
-            reference: ghcr.io/cnpg-extensions/pg-duckdb:1.2.0-202611161743-18-trixie@sha256:5ff13efca21cc0276c9f030ea1453dca6feda83f2be1b4fdb3df5dbf18846dba
+            reference: ghcr.io/cnpg-extensions/pg-duckdb:1.2.2-202611240214-18-trixie@sha256:b0dd5129d823990873815c53b6ee555079ad1cfa992f7a4171b13dd15c91d3bc
           ld_library_path:
             - system
         - name: pg-durable
@@ -282,7 +282,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/plsh:1.20220917-202611131645-18-trixie@sha256:218911240060edd7bf664a1f8e0b31b1631883f935e60ff2694cac65b2987e58
         - name: pltcl
           image:
-            reference: ghcr.io/cnpg-extensions/pltcl:18.7-202611131642-18-trixie@sha256:6d7a89e626263619ac1dfc8a0ad76057677fda6bc2259f55b70959221d85b3a8
+            reference: ghcr.io/cnpg-extensions/pltcl:18.7-202611240136-18-trixie@sha256:42c5a92003b1484d6d3f88a1d5c04a9655c077738c5a2da561122aad2ed49b61
           ld_library_path:
             - system
           env:

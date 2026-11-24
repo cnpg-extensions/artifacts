@@ -104,7 +104,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-dirtyread:2.8-202611130420-18-bookworm@sha256:b9dcd4bfd1e92fe8786bb347396a0705355ffe5512f7761cf86aac6337f0c0d4
         - name: pg-duckdb
           image:
-            reference: ghcr.io/cnpg-extensions/pg-duckdb:1.2.0-202611161743-18-bookworm@sha256:92e207dad1de9ddcd94c9129c9dd847b250f5d5d2bc2818a9ea84725c8581d98
+            reference: ghcr.io/cnpg-extensions/pg-duckdb:1.2.2-202611240214-18-bookworm@sha256:1f0d41af493495479b4a65666367a48cdbe4e576408d69b7ec867e2bbcba66a4
           ld_library_path:
             - system
         - name: pg-durable
@@ -272,7 +272,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/plsh:1.20220917-202611131645-18-bookworm@sha256:406d0c09cdd27bad2e6b5a55a5414e997cca54a6c9946a3fa06450122bd7c96e
         - name: pltcl
           image:
-            reference: ghcr.io/cnpg-extensions/pltcl:18.7-202611131642-18-bookworm@sha256:13f2e3c99eb29493b5fa497497766f20f066159e6632844e898d3b7cb5f95240
+            reference: ghcr.io/cnpg-extensions/pltcl:18.7-202611240136-18-bookworm@sha256:515e11442ea76cb73c1fefcd763e5050011277876ccbbf68adb3abe17e0dc275
           ld_library_path:
             - system
           env:
