@@ -134,7 +134,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-jsonschema:0.3.4-202611160102-18-trixie@sha256:2954728d3286a3a2935a1cd1a2f9fff950c55f80ad78e2e196b2863ed2c87a35
         - name: pg-parquet
           image:
-            reference: ghcr.io/cnpg-extensions/pg-parquet:0.5.1-202611160102-18-trixie@sha256:2ba919138f7be8b8417407af7b6918db06cdf4c409176cb83820aaf90040738e
+            reference: ghcr.io/cnpg-extensions/pg-parquet:0.6.1-202611240324-18-trixie@sha256:caac003c0de9556f59883be423f208238476187aa65cf58851f97d170c76a868
         - name: pg-partman
           image:
             reference: ghcr.io/cnpg-extensions/pg-partman:5.5.0-202611130657-18-trixie@sha256:eb0fd199d31eacfdc79de04caad1409b3c361dccd52b23148b387b110851f2d8
