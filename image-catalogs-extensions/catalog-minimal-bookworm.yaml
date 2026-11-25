@@ -166,7 +166,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-similarity:1.0-202611131700-18-bookworm@sha256:bc3cf5b9025a2035a713cab75204de1f4c9897f997c54f66680579342bfd7701
         - name: pg-squeeze
           image:
-            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.6-202611250307-18-bookworm@sha256:9850982a2d9ffa9266b18305b4f25363d991b73779a28a292eea0c03a967173d
+            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.6-202611250736-18-bookworm@sha256:dbc825b20da842aaecc567ff43692334c463dc04e9213dd48ba98ed3bd8f4582
         - name: pg-stat-kcache
           image:
             reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202611241626-18-bookworm@sha256:d49605ef19a41d0a1d97ebe95c644c5090f904ea20c3e0c57060596ec0a4db8f
@@ -462,7 +462,7 @@ spec:
             - system
         - name: pg-squeeze
           image:
-            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.4-202611250307-19-bookworm@sha256:8a229947f6df0257916df41d105e216b63a28e720f0e49e70319fc1a63f0a565
+            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.6-202611250736-19-bookworm@sha256:fb7c7c5a3c56478ea25f9ea4f36e56f305dc80f7ef757637491ed483e1c59d0d
         - name: pg-stat-kcache
           image:
             reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202611241626-19-bookworm@sha256:2ab8c9aa2ef85abc6a2872ca5345757a6dfdf777778af2007d562fdef8a4585e

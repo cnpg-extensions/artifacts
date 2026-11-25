@@ -176,7 +176,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-similarity:1.0-202611131700-18-trixie@sha256:047f0c6dd84fcd15cfa2c97dba1c7cfb7863277b3953c02235d1e8ed28984a31
         - name: pg-squeeze
           image:
-            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.6-202611250307-18-trixie@sha256:d92ee9bc4ba642d3de140e07ea8fa59c1b437685effe8d38989263355c4f48c4
+            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.6-202611250736-18-trixie@sha256:fe5df1b6b2f7197506ae230a6632432511fe95f475b65cde27aa52ac28e5e900
         - name: pg-stat-kcache
           image:
             reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202611241626-18-trixie@sha256:2ff484ce57a1efa71caf947b92d925d1f18bfed27355d877a4ad1027daa5ae7a
@@ -482,7 +482,7 @@ spec:
             - system
         - name: pg-squeeze
           image:
-            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.4-202611250307-19-trixie@sha256:002aafcd4a4a422b40d4c0bfc0bebc94fc2de8e550a13425399e7273c0c915e5
+            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.6-202611250736-19-trixie@sha256:4f9b0a180f08739b1d85a759d42cb8b1e886434f8537b660922997d042757af1
         - name: pg-stat-kcache
           image:
             reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202611241626-19-trixie@sha256:9b7496635ba6fc1885752eec5ed62f1db5174405771f41e05c7199c76e8a1be6
