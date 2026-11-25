@@ -137,7 +137,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-parquet:0.6.1-202611241556-18-trixie@sha256:7ef4c8b7f00e361d922fe9ca2a2196c32f4af9fb55fde0f052afc34e20f6cb8f
         - name: pg-partman
           image:
-            reference: ghcr.io/cnpg-extensions/pg-partman:5.5.1-202611242059-18-trixie@sha256:14b6faa32c5422943f4953c40ecb57bd3b33c8c48e53538592261d42a601a945
+            reference: ghcr.io/cnpg-extensions/pg-partman:5.5.1-202611250354-18-trixie@sha256:3ecf488d2921c2171c1e3f9793c7610ae3aa33a5fffc70e858348f229323faf2
         - name: pg-permissions
           image:
             reference: ghcr.io/cnpg-extensions/pg-permissions:1.4.1-202611241624-18-trixie@sha256:63eb7703de43055eecbdfbc8498622cdae1bb558891a79268a4df27150e8b392
@@ -165,7 +165,7 @@ spec:
             - system
         - name: pg-search
           image:
-            reference: ghcr.io/cnpg-extensions/pg-search:0.27.0-202611240526-18-trixie@sha256:2c9eb2df6c02f36ac1a0f718e23364a293cae59751533ff30949f9ac168deb91
+            reference: ghcr.io/cnpg-extensions/pg-search:0.27.1-202611250341-18-trixie@sha256:9ba48b7598592ac0b9247b3b79ed2efe242b600835d3fafb6a6be59583b97151
           ld_library_path:
             - system
         - name: pg-session-jwt
@@ -212,7 +212,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pgextwlist:1.20-202611241824-18-trixie@sha256:affac958b759f1c4eae82d6be15081ce8e5d203b68a87ceeb2a47e30840383cc
         - name: pgfaceting
           image:
-            reference: ghcr.io/cnpg-extensions/pgfaceting:0.2.0-202611242041-18-trixie@sha256:d0a30d5be918b2e6d85e8247dffe2b76d02034b11d4e321ca6583e834c2d7eb0
+            reference: ghcr.io/cnpg-extensions/pgfaceting:0.2.0-202611250352-18-trixie@sha256:28274103abf756058ce08acade8ce91db5d52fb1715963fcd99e495b882d8678
         - name: pgfincore
           image:
             reference: ghcr.io/cnpg-extensions/pgfincore:1.4.0-202611241824-18-trixie@sha256:b482918d08366cb0ce264b0146c635e12f361261554d701bd325766ac6781e8a
@@ -454,7 +454,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-parquet:0.6.1-202611241556-19-trixie@sha256:108b6466f562ff1ab4b54cfd64ddd8554040e5a60e01ce0a1c9ce8de34d39db1
         - name: pg-partman
           image:
-            reference: ghcr.io/cnpg-extensions/pg-partman:5.5.0-202611242059-19-trixie@sha256:538e7a10c773a88783e40aee45e63e2ce48d4330065ea322e2847e3688f1835d
+            reference: ghcr.io/cnpg-extensions/pg-partman:5.5.1-202611250354-19-trixie@sha256:7600eb8e7058d72d7d5a3be89ded1ed46e6b5b4054815aae2d7b6b1979523f3d
         - name: pg-permissions
           image:
             reference: ghcr.io/cnpg-extensions/pg-permissions:1.4.1-202611241624-19-trixie@sha256:fb81153182834db4c2174244bfd44fb1567f3517fb5cbaedd5b125813b6fb59d
@@ -518,7 +518,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pgextwlist:1.20-202611241824-19-trixie@sha256:cba0702b00ed974842fb4913cf7493f8812ca64e40250662cebadaefb905a9d3
         - name: pgfaceting
           image:
-            reference: ghcr.io/cnpg-extensions/pgfaceting:0.2.0-202611242041-19-trixie@sha256:1cff1d20c43626980d381992058ae15f57a76f30b84501e40b0bd77c2853d47e
+            reference: ghcr.io/cnpg-extensions/pgfaceting:0.2.0-202611250352-19-trixie@sha256:b5326449191d52f1404512a8b671361edab786b99a01aef88db05d36726ae15e
         - name: pgfincore
           image:
             reference: ghcr.io/cnpg-extensions/pgfincore:1.4.0-202611241824-19-trixie@sha256:d40a645aa8e5662b30745d7c8e6ea8dae35007fc28ecf19c153c496bdb2e8c1a
