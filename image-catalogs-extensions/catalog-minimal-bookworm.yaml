@@ -83,7 +83,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/numeral:1.3-202611241824-18-bookworm@sha256:067f3cef811058f249f676f8916ec2cc7f140e30e108c1d709cff0559903be72
         - name: orafce
           image:
-            reference: ghcr.io/cnpg-extensions/orafce:4.17.2-202611242058-18-bookworm@sha256:78974927b669642dbf20025dcfe58ab9f5a2703ba8e66e979cdaaa04e36cb4e6
+            reference: ghcr.io/cnpg-extensions/orafce:4.17.2-202611250255-18-bookworm@sha256:be45ae459ab197246a26f499270a0d8886b713b798e2a5fe6f2bfa14bcbd1d54
         - name: periods
           image:
             reference: ghcr.io/cnpg-extensions/periods:1.2.3-202611100018-18-bookworm@sha256:61c0041fccabb094a5120d91255e60c8ea3a1e012bbd4992c8fedf7b1ab31c2c
@@ -166,7 +166,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-similarity:1.0-202611131700-18-bookworm@sha256:bc3cf5b9025a2035a713cab75204de1f4c9897f997c54f66680579342bfd7701
         - name: pg-squeeze
           image:
-            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.4-202611241557-18-bookworm@sha256:bd0c43e3fadfcc7b0255432517d64884ea2b1e8fdf2e76548b7c720f1aeb26cb
+            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.6-202611250307-18-bookworm@sha256:9850982a2d9ffa9266b18305b4f25363d991b73779a28a292eea0c03a967173d
         - name: pg-stat-kcache
           image:
             reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202611241626-18-bookworm@sha256:d49605ef19a41d0a1d97ebe95c644c5090f904ea20c3e0c57060596ec0a4db8f
@@ -402,7 +402,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/numeral:1.3-202611241824-19-bookworm@sha256:3eb26dc1628c7f8209861272ee1f7be31067425634ed709505c576151913bc97
         - name: orafce
           image:
-            reference: ghcr.io/cnpg-extensions/orafce:4.17.1-202611242058-19-bookworm@sha256:51fb2c2149bda8f4beb83b79bc2573c4cd02f48a68172f99ac267251dd007f4d
+            reference: ghcr.io/cnpg-extensions/orafce:4.17.2-202611250255-19-bookworm@sha256:48137c3f6fc31c4fd5e8910eccf326811d1507d02ae47f36b242524ea2af14ca
         - name: pg-background
           image:
             reference: ghcr.io/cnpg-extensions/pg-background:2.0.3-202611241621-19-bookworm@sha256:e5cdf57523f198309b412bf10f69042f7d811e6b1810f2647b8f07e04416d2c7
@@ -462,7 +462,7 @@ spec:
             - system
         - name: pg-squeeze
           image:
-            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.4-202611241557-19-bookworm@sha256:4dd7be4f7084ccaa8f049f4e76683d775a008ec09ddbc85100bd50ccb1b4af7d
+            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.4-202611250307-19-bookworm@sha256:8a229947f6df0257916df41d105e216b63a28e720f0e49e70319fc1a63f0a565
         - name: pg-stat-kcache
           image:
             reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202611241626-19-bookworm@sha256:2ab8c9aa2ef85abc6a2872ca5345757a6dfdf777778af2007d562fdef8a4585e

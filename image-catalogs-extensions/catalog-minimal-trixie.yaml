@@ -88,7 +88,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/numeral:1.3-202611241824-18-trixie@sha256:4c3bd1267445350b049c6b8f5c9c37c391fe673865e492187ea43817105d13e2
         - name: orafce
           image:
-            reference: ghcr.io/cnpg-extensions/orafce:4.17.2-202611242058-18-trixie@sha256:76ab862baefedf4945a88319545507d797e06cddb1fd2e6a1c2c23183127e87c
+            reference: ghcr.io/cnpg-extensions/orafce:4.17.2-202611250255-18-trixie@sha256:92df35f8d00fa9dbc9b2ce75487898c7ab0b36e6e088648ce9e3000b3b30d43d
         - name: periods
           image:
             reference: ghcr.io/cnpg-extensions/periods:1.2.3-202611100018-18-trixie@sha256:a03ffda4dc65d99564fdb663899adb92be1bfe3a2b74073f40b50e831060e976
@@ -176,7 +176,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-similarity:1.0-202611131700-18-trixie@sha256:047f0c6dd84fcd15cfa2c97dba1c7cfb7863277b3953c02235d1e8ed28984a31
         - name: pg-squeeze
           image:
-            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.4-202611241557-18-trixie@sha256:d660195b49edce236494d21b612758019407474be13743622c555d8a898198b7
+            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.6-202611250307-18-trixie@sha256:d92ee9bc4ba642d3de140e07ea8fa59c1b437685effe8d38989263355c4f48c4
         - name: pg-stat-kcache
           image:
             reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202611241626-18-trixie@sha256:2ff484ce57a1efa71caf947b92d925d1f18bfed27355d877a4ad1027daa5ae7a
@@ -417,7 +417,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/numeral:1.3-202611241824-19-trixie@sha256:6e77f2c5f7fd3e802e822d9a3ccc7740425d735d240adaad25e5005aa1c84348
         - name: orafce
           image:
-            reference: ghcr.io/cnpg-extensions/orafce:4.17.1-202611242058-19-trixie@sha256:e89e80f21f9166ddba57bb1da953fab4c6c21daf6144e82d69f9ba0b2c75b2bf
+            reference: ghcr.io/cnpg-extensions/orafce:4.17.2-202611250255-19-trixie@sha256:15e247947d5d05e7e4509348b4098a584f17779662d72ef031c414e68052172c
         - name: pg-background
           image:
             reference: ghcr.io/cnpg-extensions/pg-background:2.0.3-202611241621-19-trixie@sha256:88064c2041bdfdd911829a91a8110533f15f7efef5d59409b36d101340b64b9a
@@ -482,7 +482,7 @@ spec:
             - system
         - name: pg-squeeze
           image:
-            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.4-202611241557-19-trixie@sha256:a6d0f1e3b2bcadf8ea3a0350f89e3375de2f097b058b75898c7d4ba93028dd84
+            reference: ghcr.io/cnpg-extensions/pg-squeeze:1.9.4-202611250307-19-trixie@sha256:002aafcd4a4a422b40d4c0bfc0bebc94fc2de8e550a13425399e7273c0c915e5
         - name: pg-stat-kcache
           image:
             reference: ghcr.io/cnpg-extensions/pg-stat-kcache:2.3.2-202611241626-19-trixie@sha256:9b7496635ba6fc1885752eec5ed62f1db5174405771f41e05c7199c76e8a1be6
