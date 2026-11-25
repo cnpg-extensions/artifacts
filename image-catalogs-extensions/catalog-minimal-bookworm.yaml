@@ -130,7 +130,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-partman:5.5.1-202611250354-18-bookworm@sha256:8ad9afc3f5de53b0c89cc2cd022bb712c765d8b9282368965ac8b62bc8357e53
         - name: pg-permissions
           image:
-            reference: ghcr.io/cnpg-extensions/pg-permissions:1.4.1-202611241624-18-bookworm@sha256:5b2ef4daefadea596a8e484498d53c532c777b6dfccfd251fd5a7ae04909ef12
+            reference: ghcr.io/cnpg-extensions/pg-permissions:1.6-202611251234-18-bookworm@sha256:4b17a32f198b83087c54792764742465c9c3ca4133318fbf146187978aa7fc63
         - name: pg-pwhash
           image:
             reference: ghcr.io/cnpg-extensions/pg-pwhash:1.0-202611241824-18-bookworm@sha256:354f6820c2732f0bdce72cf8a7b46a37a9c1ad382234538a4c5cf784c9c00c6f
@@ -437,7 +437,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-partman:5.5.1-202611250354-19-bookworm@sha256:d4ac2a01902ef4550d045721977d91b56a6053bd791fc4290d4948370211eebf
         - name: pg-permissions
           image:
-            reference: ghcr.io/cnpg-extensions/pg-permissions:1.4.1-202611241624-19-bookworm@sha256:fdf17c796705bbaee24cbb1ebe8b59a4510d834d47d0a48467bfc50bd91994ee
+            reference: ghcr.io/cnpg-extensions/pg-permissions:1.6-202611251234-19-bookworm@sha256:c0b49e5edd0ef8406bee5542f0b91dc6e5c9eb27d825cd9358aff3033bf125bd
         - name: pg-pwhash
           image:
             reference: ghcr.io/cnpg-extensions/pg-pwhash:1.0-202611241824-19-bookworm@sha256:8fc104735bf309e79fb186ec3381bbe66207096f705358d346d7ab8fce2a7322
