@@ -75,7 +75,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/mimeo:1.5.1-202611241604-18-bookworm@sha256:062f51c2ec9f4b66bbb5ed6456c49d47991b7d029edaacf0a599f0c9ce251a16
         - name: mobilitydb
           image:
-            reference: ghcr.io/cnpg-extensions/mobilitydb:1.3.2-202611211057-18-bookworm@sha256:389df1009438fef8f834b6d5a0fbdd4ed18e5852c1adf73fa0e5ffbb3d946910
+            reference: ghcr.io/cnpg-extensions/mobilitydb:1.3.2-202611271203-18-bookworm@sha256:b5b9296018c88ec4a0241c4e7a6db4757fd9a87c66091cfde0fab389657afc27
           ld_library_path:
             - system
         - name: numeral
