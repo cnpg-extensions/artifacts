@@ -33,7 +33,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/db2fce:0.0.17-202611121823-18-bookworm@sha256:4bbd6001a347de5a31f1879f1f23ea5ad8993423af9da2cf5af9d5f2cd685081
         - name: debversion
           image:
-            reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202611241621-18-bookworm@sha256:82a0ccea62bf0f8a7559666671a60ab0846b67066d778ab045d529f00d7841e9
+            reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202611271900-18-bookworm@sha256:84c145d14b179e5e1df8fed728be087c404f0f2835a009a58725b528857b1290
         - name: decoderbufs
           image:
             reference: ghcr.io/cnpg-extensions/decoderbufs:3.7.0-202611122323-18-bookworm@sha256:ae9447d10016969af67996c1242b7499d9dbb9a0a3ce804f4681496d8e88db95
@@ -95,7 +95,7 @@ spec:
             reference: ghcr.io/cloudnative-pg/pg-crash:0.3-202611271443-18-bookworm@sha256:1d8b16cd876110f6f9918f709f146858cc7412edda23bd7131d546acf5dcf749
         - name: pg-cron
           image:
-            reference: ghcr.io/cnpg-extensions/pg-cron:1.6.8-202611241824-18-bookworm@sha256:38b657a868e2bb6d1fc5fbcc4293ca68397404f3eaeaaad7372c67159db0ece6
+            reference: ghcr.io/cnpg-extensions/pg-cron:1.6.8-202611271858-18-bookworm@sha256:7fe32fc3a77cbe2f013fa3d2e336953c78615c23258771e64e71cf22be0e2593
         - name: pg-csv
           image:
             reference: ghcr.io/cnpg-extensions/pg-csv:1.0.2-202611241612-18-bookworm@sha256:f81d865b996de71a616f02d20456d37c4e4ba1d92b9efbb51543fa545cf8f61a
@@ -368,7 +368,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/credcheck:6.0-202611271626-19-bookworm@sha256:081fede7cee62ccc83b2b78f7ece0bdecff736ebed98d3808aae975c05588174
         - name: debversion
           image:
-            reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202611241621-19-bookworm@sha256:3a254e4de4877a1ca0484489d38b58bda8ac9c0438d23612abc0358321fcd8aa
+            reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202611271900-19-bookworm@sha256:59e2da5cd6f1be7037b6de6c2e0591073c8cdbf618169e74cb3f70f1cd42113f
         - name: extra-window-functions
           image:
             reference: ghcr.io/cnpg-extensions/extra-window-functions:2.0-202611241603-19-bookworm@sha256:9c2df1edddc923a8b391263be2c41632a2dacf3089f4d72dbaa49e669d260ec1
@@ -411,7 +411,7 @@ spec:
             reference: ghcr.io/cloudnative-pg/pg-crash:0.3-202611271443-19-bookworm@sha256:e0346be9adb8e69e984be308c87c6cd5e988b34b889473a7e4f5ebd24de8c355
         - name: pg-cron
           image:
-            reference: ghcr.io/cnpg-extensions/pg-cron:1.6.8-202611241824-19-bookworm@sha256:63b8ef1931a2f4cbee3a564ea496bcc1d519db6b4a5132aa6743c46760b468f0
+            reference: ghcr.io/cnpg-extensions/pg-cron:1.6.8-202611271858-19-bookworm@sha256:ed8564ffa70b1f9fd7843894c484b285ad9e7f8ef7c913b07d5513668d1c4b67
         - name: pg-csv
           image:
             reference: ghcr.io/cnpg-extensions/pg-csv:1.0.2-202611241612-19-bookworm@sha256:f5aa3af48abe9396a0d83cdd4a605dc88b172ff1da383e5385fe28d122fdcea1

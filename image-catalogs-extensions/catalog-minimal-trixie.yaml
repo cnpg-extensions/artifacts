@@ -33,7 +33,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/db2fce:0.0.17-202611121823-18-trixie@sha256:b06475c6928d26ff233e661e5a91961fba618aa354f4c72cde957ef7c8fda27f
         - name: debversion
           image:
-            reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202611241621-18-trixie@sha256:9d6b1dbfdbdc06340a0d367d58d8b46de23d5526ce14771a30cf542ab3fe46fc
+            reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202611271900-18-trixie@sha256:f1b141f8f5bbd6763e379e8199d36b1fedf51a7fb59dfc2bc7309ec51139b5ee
         - name: decoderbufs
           image:
             reference: ghcr.io/cnpg-extensions/decoderbufs:3.7.0-202611122323-18-trixie@sha256:6826a4eb3e15e3481d0f59b267e432adee9d48e6c39e3a45b88cc7152116eb9c
@@ -100,7 +100,7 @@ spec:
             reference: ghcr.io/cloudnative-pg/pg-crash:0.3-202611271443-18-trixie@sha256:26c9d6151c2fdecf5ee777c93c831a1d792f3335e94c155412c9e1154c936360
         - name: pg-cron
           image:
-            reference: ghcr.io/cnpg-extensions/pg-cron:1.6.8-202611241824-18-trixie@sha256:e77105e3f9c7803434bf06e8bd8c96222a7a2562ac3e9d265d8324efc6f0b791
+            reference: ghcr.io/cnpg-extensions/pg-cron:1.6.8-202611271858-18-trixie@sha256:8aaaf85b702759ea5fabd38189e910898652f8043655ed68f1a25f292470895f
         - name: pg-csv
           image:
             reference: ghcr.io/cnpg-extensions/pg-csv:1.0.2-202611241612-18-trixie@sha256:e08e4f0a8b6836cb88e8f36d022c517119f10d473bbc87f7e78dcbc15059fa84
@@ -383,7 +383,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/credcheck:6.0-202611271626-19-trixie@sha256:f535bc2bbec86368f30f91fed2682934985375b51da13358f1121e082a72b787
         - name: debversion
           image:
-            reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202611241621-19-trixie@sha256:2a39c06b0bf0253979f16ddeb3c6e46de902b796c352d586a201cde335c08164
+            reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202611271900-19-trixie@sha256:b4cdc295e8e4e6eb52d87568a3e4346f4126b049824f737b67f35eb16a574719
         - name: extra-window-functions
           image:
             reference: ghcr.io/cnpg-extensions/extra-window-functions:2.0-202611241603-19-trixie@sha256:ccf7acda7c258f28ddc7e417ae628c66b5090ada54aec57580c1188930fd41c7
@@ -426,7 +426,7 @@ spec:
             reference: ghcr.io/cloudnative-pg/pg-crash:0.3-202611271443-19-trixie@sha256:47883fadc6f101afd2758a70f33e85ce53209114d81340691846fe3f3241f1be
         - name: pg-cron
           image:
-            reference: ghcr.io/cnpg-extensions/pg-cron:1.6.8-202611241824-19-trixie@sha256:ebdd352698611d8428730e7508e09bf2f4e093eca568232566eb9a476d45b2db
+            reference: ghcr.io/cnpg-extensions/pg-cron:1.6.8-202611271858-19-trixie@sha256:21d0d637a98e2d10601ad21467c48b31744cb45e0b49e7c9ab957cd1ba73a33a
         - name: pg-csv
           image:
             reference: ghcr.io/cnpg-extensions/pg-csv:1.0.2-202611241612-19-trixie@sha256:f61bcfb3e9bee33e02a1e65f69489495e8ac1ac9d9af79baf7b7b7502072d5f0
