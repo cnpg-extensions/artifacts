@@ -141,7 +141,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-qualstats:2.1.4-202611241824-18-bookworm@sha256:f61b33a4f4b33c2db685922dc532d0f1d366acc59fe7ef4656f7c743538221df
         - name: pg-rage-terminator
           image:
-            reference: ghcr.io/cnpg-extensions/pg-rage-terminator:0.1.7-202611241625-18-bookworm@sha256:bdb58c427c99f9793117bbf38d7e0b441342d805fa8f59bdbcfc7b64127b77bc
+            reference: ghcr.io/cnpg-extensions/pg-rage-terminator:0.1.7-202611271214-18-bookworm@sha256:1b002906d6e697fc892a71171b160f4fb5d165dcf53dd8476fc952ecdb9dd148
         - name: pg-repack
           image:
             reference: ghcr.io/cnpg-extensions/pg-repack:1.5.3-202611241623-18-bookworm@sha256:ee889c6efaa3119f679f5f1aa66850f2f129aee1a166140846dbe556a1e91de3
@@ -448,7 +448,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-qualstats:2.1.4-202611241824-19-bookworm@sha256:c7cdc1fb454429bef97df76f6eb0b677f93f39687fe0126776f9dc70a06d1b5e
         - name: pg-rage-terminator
           image:
-            reference: ghcr.io/cnpg-extensions/pg-rage-terminator:0.1.7-202611241625-19-bookworm@sha256:417e053c65c1709d989ee5c2117b85d4126f424751d1b703d7e8a0b88d952901
+            reference: ghcr.io/cnpg-extensions/pg-rage-terminator:0.1.7-202611271214-19-bookworm@sha256:2a5a3d95f85e031575b8d91d396b70afd493aa68a92bbeb50b00cc45e48bbbc2
         - name: pg-repack
           image:
             reference: ghcr.io/cnpg-extensions/pg-repack:1.5.3-202611241623-19-bookworm@sha256:0c65f557b5c3d384f7f8cc95b761b2ccafce6d0195ab7c6c918da1b103db2095

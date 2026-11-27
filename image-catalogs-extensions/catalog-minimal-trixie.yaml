@@ -151,7 +151,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-qualstats:2.1.4-202611241824-18-trixie@sha256:e690ebe0baa20199efe10bac779a29d3e89804313a6f45eb69c8a20f9ed8a546
         - name: pg-rage-terminator
           image:
-            reference: ghcr.io/cnpg-extensions/pg-rage-terminator:0.1.7-202611241625-18-trixie@sha256:a4692bac17ec80ef5baef4328a106bf72e076be97eb90b616f07ed27500e0d31
+            reference: ghcr.io/cnpg-extensions/pg-rage-terminator:0.1.7-202611271214-18-trixie@sha256:75aadff524d8c971fa8517955ab4346751d3928c3b0f06dc576fd7896bbaa40c
         - name: pg-repack
           image:
             reference: ghcr.io/cnpg-extensions/pg-repack:1.5.3-202611241623-18-trixie@sha256:616074f270707888f9d1619c6ca8bfc81402e2c272804921794f6bd2ef71fda4
@@ -468,7 +468,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-qualstats:2.1.4-202611241824-19-trixie@sha256:b6de5b7d231e3892e4f972eeb0d2447d9bebc03631c623b693c1dc049e27c02c
         - name: pg-rage-terminator
           image:
-            reference: ghcr.io/cnpg-extensions/pg-rage-terminator:0.1.7-202611241625-19-trixie@sha256:35773cc32bc4d77c429827e8154dea62adffd96a632797113a50ff7216614360
+            reference: ghcr.io/cnpg-extensions/pg-rage-terminator:0.1.7-202611271214-19-trixie@sha256:5ed239c3bfa61b1ec23b421e42da10e6866c128f028b4cac6a11966043a30e83
         - name: pg-repack
           image:
             reference: ghcr.io/cnpg-extensions/pg-repack:1.5.3-202611241623-19-trixie@sha256:c937f4a28c301e44b1d3e1cb989199e4faf582a464a5d80d5e96010d4f22715b
