@@ -47,12 +47,12 @@ spec:
             reference: ghcr.io/cnpg-extensions/first-last-agg:0.1.4-202611100015-18-bookworm@sha256:dd1f15fd4ee47575a4a3c6017a326b779d7f29277355d90b718db132126ce04d
         - name: h3
           image:
-            reference: ghcr.io/cnpg-extensions/h3:4.2.3-202611241608-18-bookworm@sha256:2fc5f9e9728ea323a94b60674dd9bc825fac325e605f6d740a8d0e2d2321012b
+            reference: ghcr.io/cnpg-extensions/h3:4.2.3-202611280840-18-bookworm@sha256:1867ebb13b97b2d05193555a7a53c001783712c61d99deb9c559e64922e62c74
           ld_library_path:
             - system
         - name: hll
           image:
-            reference: ghcr.io/cnpg-extensions/hll:2.21-202611241626-18-bookworm@sha256:77daf1e549fe35130a88f87698e89d0b7a15af486f387c486a0725c53acfabf4
+            reference: ghcr.io/cnpg-extensions/hll:2.21-202611280842-18-bookworm@sha256:dfff6d8f72c54caa60565fd17195cf7f79fed92c61bf4b04d2be4b0f7435c60e
         - name: http
           image:
             reference: ghcr.io/cnpg-extensions/http:1.7.2-202611241602-18-bookworm@sha256:adf7198c01cdf2be0d6bae68f38d53d1d63d8f1c02173f6d7609c236fa098681
@@ -374,12 +374,12 @@ spec:
             reference: ghcr.io/cnpg-extensions/extra-window-functions:2.0-202611280312-19-bookworm@sha256:34c1af30cff7bbc42f0b56fcba78190601c7633a1824356121b2a8e6281dd1bb
         - name: h3
           image:
-            reference: ghcr.io/cnpg-extensions/h3:4.2.3-202611241608-19-bookworm@sha256:f258ccefabcaa02fd86cbc950a457dd5640885fadec5f5ce675f0bfbe037f152
+            reference: ghcr.io/cnpg-extensions/h3:4.2.3-202611280840-19-bookworm@sha256:b087ed35abc012c4a874c6928cb2b658dafd6490d06baaa83d7b5470f956e992
           ld_library_path:
             - system
         - name: hll
           image:
-            reference: ghcr.io/cnpg-extensions/hll:2.21-202611241626-19-bookworm@sha256:9f03289600c2519345cc9ba2b7d4c8a64f311b5d90035a1ac9f090cdfe4937b8
+            reference: ghcr.io/cnpg-extensions/hll:2.21-202611280842-19-bookworm@sha256:6f808e25f26ea6bb836bc8398ac8b9700488e748c36e1aef170c59b4c1e30455
         - name: http
           image:
             reference: ghcr.io/cnpg-extensions/http:1.7.2-202611241602-19-bookworm@sha256:05cf3dc5571a59265a5d1e3ce2af626c1f891595d252cdf44e09a07805ff0daf

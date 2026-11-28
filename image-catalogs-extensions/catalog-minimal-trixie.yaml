@@ -52,12 +52,12 @@ spec:
             reference: ghcr.io/cnpg-extensions/first-last-agg:0.1.4-202611100015-18-trixie@sha256:f9f36d4b945d1c19b18f51dfb38c684160ab964a33d8fc9af3331029dd9f97b7
         - name: h3
           image:
-            reference: ghcr.io/cnpg-extensions/h3:4.2.3-202611241608-18-trixie@sha256:f72ae64a238fb20350bebbf082bddd11f5121148466b66c5b377d8011a306c10
+            reference: ghcr.io/cnpg-extensions/h3:4.2.3-202611280840-18-trixie@sha256:36383ad7558a51e315ff5498734063ccc58c7b57cf2f2b167709a350568cb1b6
           ld_library_path:
             - system
         - name: hll
           image:
-            reference: ghcr.io/cnpg-extensions/hll:2.21-202611241626-18-trixie@sha256:43366eeced601c2ae0cc723e78f836942b00653b141ce9e179d0ff4fcd08360a
+            reference: ghcr.io/cnpg-extensions/hll:2.21-202611280842-18-trixie@sha256:a4cb4079d9e09399d990d6e19ea50afbb028dac4b4597c1f796c20094441c7d3
         - name: http
           image:
             reference: ghcr.io/cnpg-extensions/http:1.7.2-202611241602-18-trixie@sha256:4f4903abb7502574112736d281563fbe9f3115297c9667605a70dabaa8e4088a
@@ -389,12 +389,12 @@ spec:
             reference: ghcr.io/cnpg-extensions/extra-window-functions:2.0-202611280312-19-trixie@sha256:24693aba3fe32dcaeab3de3a88dfab17359576a0c041598851e140cc73711bbe
         - name: h3
           image:
-            reference: ghcr.io/cnpg-extensions/h3:4.2.3-202611241608-19-trixie@sha256:0ea6f7280c37c8bf3c0d9e75b73c336551a34aef313c9990a23ed67529bac12c
+            reference: ghcr.io/cnpg-extensions/h3:4.2.3-202611280840-19-trixie@sha256:4879f6fa95f8784dabb028645f5d57f99dda672b881d6594f74ea61f5a37043e
           ld_library_path:
             - system
         - name: hll
           image:
-            reference: ghcr.io/cnpg-extensions/hll:2.21-202611241626-19-trixie@sha256:3ab325b7706fbbaf5b72897b577321e7f3c6390ab2737e4c41d6d65a6c9e0d0d
+            reference: ghcr.io/cnpg-extensions/hll:2.21-202611280842-19-trixie@sha256:e68093989a64a18be740907bac89f8c43497a3ed7c68cb9e4b44b3beaa28d324
         - name: http
           image:
             reference: ghcr.io/cnpg-extensions/http:1.7.2-202611241602-19-trixie@sha256:0a31c005cad71ebf6f432283b57f2ee9564047f84dc8110274ab6728ec568480
