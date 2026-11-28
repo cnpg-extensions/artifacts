@@ -46,7 +46,7 @@ spec:
             - lib
         - name: extra-window-functions
           image:
-            reference: ghcr.io/cnpg-extensions/extra-window-functions:2.0-202611241603-18-trixie@sha256:8b75016d0396ca5e65a9c3661c68b089fcc72f9b623cfecedc403ff84196944e
+            reference: ghcr.io/cnpg-extensions/extra-window-functions:2.0-202611280312-18-trixie@sha256:10ae040e1ace7017975b53054f5d92cfaf0d2fcebb893c52c3f68e3bf2442411
         - name: first-last-agg
           image:
             reference: ghcr.io/cnpg-extensions/first-last-agg:0.1.4-202611100015-18-trixie@sha256:f9f36d4b945d1c19b18f51dfb38c684160ab964a33d8fc9af3331029dd9f97b7
@@ -106,7 +106,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-csv:1.0.2-202611241612-18-trixie@sha256:e08e4f0a8b6836cb88e8f36d022c517119f10d473bbc87f7e78dcbc15059fa84
         - name: pg-dirtyread
           image:
-            reference: ghcr.io/cnpg-extensions/pg-dirtyread:2.8-202611241824-18-trixie@sha256:53f670331d74c7ab9ead84f3b95ae1bc2677e0e345d2ae9d7ed0358042e0a866
+            reference: ghcr.io/cnpg-extensions/pg-dirtyread:2.8-202611280309-18-trixie@sha256:ad08cc0ceeb3e86c7de4b5e08f3c1ff627afd5a3cd323e25bdd5a301eb098f13
         - name: pg-duckdb
           image:
             reference: ghcr.io/cnpg-extensions/pg-duckdb:1.2.2-202611241557-18-trixie@sha256:52917d76360c034efe93da5ee3ec10d3ea56a27d40d2885b5a39433bc22d7f08
@@ -386,7 +386,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202611271900-19-trixie@sha256:b4cdc295e8e4e6eb52d87568a3e4346f4126b049824f737b67f35eb16a574719
         - name: extra-window-functions
           image:
-            reference: ghcr.io/cnpg-extensions/extra-window-functions:2.0-202611241603-19-trixie@sha256:ccf7acda7c258f28ddc7e417ae628c66b5090ada54aec57580c1188930fd41c7
+            reference: ghcr.io/cnpg-extensions/extra-window-functions:2.0-202611280312-19-trixie@sha256:24693aba3fe32dcaeab3de3a88dfab17359576a0c041598851e140cc73711bbe
         - name: h3
           image:
             reference: ghcr.io/cnpg-extensions/h3:4.2.3-202611241608-19-trixie@sha256:0ea6f7280c37c8bf3c0d9e75b73c336551a34aef313c9990a23ed67529bac12c
@@ -432,7 +432,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-csv:1.0.2-202611241612-19-trixie@sha256:f61bcfb3e9bee33e02a1e65f69489495e8ac1ac9d9af79baf7b7b7502072d5f0
         - name: pg-dirtyread
           image:
-            reference: ghcr.io/cnpg-extensions/pg-dirtyread:2.8-202611241824-19-trixie@sha256:433bc2c4566d64c2ab7589c5b5a5e14fb0d61131fc3c602d34f624ea775ee5e7
+            reference: ghcr.io/cnpg-extensions/pg-dirtyread:2.8-202611280309-19-trixie@sha256:adb6c6cf17319db2adf80cd2537b8ba5bc28f8293afdeb9eb8192b507f6e762a
         - name: pg-duckdb
           image:
             reference: ghcr.io/cnpg-extensions/pg-duckdb:1.2.2-202611241557-19-trixie@sha256:f1985a91f92d97a2493d679ce86de605de48a921c2397cd2ddb9fc79bbf74db9

@@ -41,7 +41,7 @@ spec:
             - system
         - name: extra-window-functions
           image:
-            reference: ghcr.io/cnpg-extensions/extra-window-functions:2.0-202611241603-18-bookworm@sha256:af23dff2f71ad66a4f12d74a04afd037f9afa389b55c694bebac031da27ed923
+            reference: ghcr.io/cnpg-extensions/extra-window-functions:2.0-202611280312-18-bookworm@sha256:512ba9a422bbc8621d1f61644b04d5fdc770437595bfb9ce39d8eb275d198f54
         - name: first-last-agg
           image:
             reference: ghcr.io/cnpg-extensions/first-last-agg:0.1.4-202611100015-18-bookworm@sha256:dd1f15fd4ee47575a4a3c6017a326b779d7f29277355d90b718db132126ce04d
@@ -101,7 +101,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-csv:1.0.2-202611241612-18-bookworm@sha256:f81d865b996de71a616f02d20456d37c4e4ba1d92b9efbb51543fa545cf8f61a
         - name: pg-dirtyread
           image:
-            reference: ghcr.io/cnpg-extensions/pg-dirtyread:2.8-202611241824-18-bookworm@sha256:06b762d0979109ae659f4b3966202489ab00201fb7cdb7efcf81a2e2aa507951
+            reference: ghcr.io/cnpg-extensions/pg-dirtyread:2.8-202611280309-18-bookworm@sha256:b3297b4d28c2c7fe8221f0e63627827ff5d2866d83ecec49c3da1354b165c406
         - name: pg-duckdb
           image:
             reference: ghcr.io/cnpg-extensions/pg-duckdb:1.2.2-202611241557-18-bookworm@sha256:237ecba2d63e5850e53cef91a91f11049c81770dd2891dddc6458b4fdd7abcaa
@@ -371,7 +371,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/debversion:1.2.0-202611271900-19-bookworm@sha256:59e2da5cd6f1be7037b6de6c2e0591073c8cdbf618169e74cb3f70f1cd42113f
         - name: extra-window-functions
           image:
-            reference: ghcr.io/cnpg-extensions/extra-window-functions:2.0-202611241603-19-bookworm@sha256:9c2df1edddc923a8b391263be2c41632a2dacf3089f4d72dbaa49e669d260ec1
+            reference: ghcr.io/cnpg-extensions/extra-window-functions:2.0-202611280312-19-bookworm@sha256:34c1af30cff7bbc42f0b56fcba78190601c7633a1824356121b2a8e6281dd1bb
         - name: h3
           image:
             reference: ghcr.io/cnpg-extensions/h3:4.2.3-202611241608-19-bookworm@sha256:f258ccefabcaa02fd86cbc950a457dd5640885fadec5f5ce675f0bfbe037f152
@@ -417,7 +417,7 @@ spec:
             reference: ghcr.io/cnpg-extensions/pg-csv:1.0.2-202611241612-19-bookworm@sha256:f5aa3af48abe9396a0d83cdd4a605dc88b172ff1da383e5385fe28d122fdcea1
         - name: pg-dirtyread
           image:
-            reference: ghcr.io/cnpg-extensions/pg-dirtyread:2.8-202611241824-19-bookworm@sha256:3405263053ff028c110e3ae87b2ecca058ca8829775fd3d4308fec11d7d411bf
+            reference: ghcr.io/cnpg-extensions/pg-dirtyread:2.8-202611280309-19-bookworm@sha256:b159e8ba026e59854f58fd668daec148cdc23f3b18cb241ffc0a2fb701d016a0
         - name: pg-duckdb
           image:
             reference: ghcr.io/cnpg-extensions/pg-duckdb:1.2.2-202611241557-19-bookworm@sha256:ccaa3c771bdfbfd0ba6ece102ec2ff6ff50066417f95adf80198048b86625df1
